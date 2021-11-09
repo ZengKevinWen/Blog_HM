@@ -1,0 +1,104 @@
+INFO 2021-11-09 14:46:09,187 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-09 14:46:38,341 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-09 14:47:03,460 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-09 14:47:04,847 log 224 Not Found: /
+WARNING 2021-11-09 14:47:04,847 basehttp 161 "GET / HTTP/1.1" 404 2167
+INFO 2021-11-09 14:47:15,284 urls 23 日志器配置成功
+INFO 2021-11-09 14:47:15,286 basehttp 161 "GET /logging HTTP/1.1" 200 18
+INFO 2021-11-09 14:53:30,670 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog_hm\settings.py changed, reloading.
+INFO 2021-11-09 14:53:33,493 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-09 14:54:44,248 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog_hm\urls.py changed, reloading.
+INFO 2021-11-09 14:54:46,510 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-09 14:54:53,501 basehttp 161 "GET /index/ HTTP/1.1" 200 12130
+WARNING 2021-11-09 14:54:53,591 basehttp 161 "GET /static/static/common/jquery.pagination.css HTTP/1.1" 404 1864
+WARNING 2021-11-09 14:54:53,592 basehttp 161 "GET /static/static/js/vue-2.5.16.js HTTP/1.1" 404 1828
+WARNING 2021-11-09 14:54:53,593 basehttp 161 "GET /static/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1873
+WARNING 2021-11-09 14:54:53,594 basehttp 161 "GET /static/static/md_css/monokai.css HTTP/1.1" 404 1834
+WARNING 2021-11-09 14:54:53,596 basehttp 161 "GET /static/static/img/1.jpg HTTP/1.1" 404 1807
+WARNING 2021-11-09 14:54:53,599 basehttp 161 "GET /static/static/common/common.css HTTP/1.1" 404 1831
+WARNING 2021-11-09 14:54:53,624 basehttp 161 "GET /static/static/js/host.js HTTP/1.1" 404 1810
+WARNING 2021-11-09 14:54:53,624 basehttp 161 "GET /static/static/js/jquery-1.12.4.min.js HTTP/1.1" 404 1849
+WARNING 2021-11-09 14:54:53,626 basehttp 161 "GET /static/static/js/axios-0.18.0.min.js HTTP/1.1" 404 1846
+WARNING 2021-11-09 14:54:53,627 basehttp 161 "GET /static/static/js/common.js HTTP/1.1" 404 1816
+WARNING 2021-11-09 14:54:53,630 basehttp 161 "GET /static/static/js/index.js HTTP/1.1" 404 1813
+WARNING 2021-11-09 14:54:53,633 basehttp 161 "GET /static/static/js/jquery.pagination.min.js HTTP/1.1" 404 1861
+WARNING 2021-11-09 14:54:54,411 basehttp 161 "GET /static/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1873
+WARNING 2021-11-09 14:54:54,416 basehttp 161 "GET /static/static/md_css/monokai.css HTTP/1.1" 404 1834
+WARNING 2021-11-09 14:54:54,420 basehttp 161 "GET /static/static/common/jquery.pagination.css HTTP/1.1" 404 1864
+WARNING 2021-11-09 14:54:54,421 basehttp 161 "GET /static/static/common/common.css HTTP/1.1" 404 1831
+WARNING 2021-11-09 14:54:54,456 basehttp 161 "GET /static/static/js/vue-2.5.16.js HTTP/1.1" 404 1828
+WARNING 2021-11-09 14:54:54,456 basehttp 161 "GET /static/static/js/axios-0.18.0.min.js HTTP/1.1" 404 1846
+WARNING 2021-11-09 14:54:54,458 basehttp 161 "GET /static/static/js/jquery-1.12.4.min.js HTTP/1.1" 404 1849
+WARNING 2021-11-09 14:54:54,511 basehttp 161 "GET /static/static/js/host.js HTTP/1.1" 404 1810
+WARNING 2021-11-09 14:54:54,514 basehttp 161 "GET /static/static/js/common.js HTTP/1.1" 404 1816
+WARNING 2021-11-09 14:54:54,516 basehttp 161 "GET /static/static/js/index.js HTTP/1.1" 404 1813
+INFO 2021-11-09 14:55:20,308 basehttp 161 "GET /index/ HTTP/1.1" 200 12115
+WARNING 2021-11-09 14:55:20,380 basehttp 161 "GET /static/static/md_css/monokai.css HTTP/1.1" 404 1834
+WARNING 2021-11-09 14:55:20,384 basehttp 161 "GET /static/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1873
+WARNING 2021-11-09 14:55:20,387 basehttp 161 "GET /static/static/common/jquery.pagination.css HTTP/1.1" 404 1864
+WARNING 2021-11-09 14:55:20,388 basehttp 161 "GET /static/static/common/common.css HTTP/1.1" 404 1831
+WARNING 2021-11-09 14:55:20,417 basehttp 161 "GET /static/static/js/jquery-1.12.4.min.js HTTP/1.1" 404 1849
+WARNING 2021-11-09 14:55:20,418 basehttp 161 "GET /static/static/js/axios-0.18.0.min.js HTTP/1.1" 404 1846
+WARNING 2021-11-09 14:55:20,419 basehttp 161 "GET /static/static/js/vue-2.5.16.js HTTP/1.1" 404 1828
+WARNING 2021-11-09 14:55:20,467 basehttp 161 "GET /static/static/js/axios-0.18.0.min.js HTTP/1.1" 404 1846
+WARNING 2021-11-09 14:55:20,469 basehttp 161 "GET /static/static/js/host.js HTTP/1.1" 404 1810
+WARNING 2021-11-09 14:55:20,469 basehttp 161 "GET /static/static/js/common.js HTTP/1.1" 404 1816
+WARNING 2021-11-09 14:55:20,485 basehttp 161 "GET /static/static/js/jquery-1.12.4.min.js HTTP/1.1" 404 1849
+WARNING 2021-11-09 14:55:20,485 basehttp 161 "GET /static/static/js/index.js HTTP/1.1" 404 1813
+WARNING 2021-11-09 14:55:20,510 basehttp 161 "GET /static/static/img/1.jpg HTTP/1.1" 404 1807
+WARNING 2021-11-09 14:55:20,512 basehttp 161 "GET /static/static/js/jquery.pagination.min.js HTTP/1.1" 404 1861
+WARNING 2021-11-09 14:55:20,515 basehttp 161 "GET /static/static/js/host.js HTTP/1.1" 404 1810
+WARNING 2021-11-09 14:55:20,531 basehttp 161 "GET /static/static/js/common.js HTTP/1.1" 404 1816
+WARNING 2021-11-09 14:55:20,544 basehttp 161 "GET /static/static/js/index.js HTTP/1.1" 404 1813
+WARNING 2021-11-09 14:55:20,558 basehttp 161 "GET /static/static/js/jquery.pagination.min.js HTTP/1.1" 404 1861
+INFO 2021-11-09 14:55:44,349 basehttp 161 "GET /index/ HTTP/1.1" 200 12130
+WARNING 2021-11-09 14:55:44,412 basehttp 161 "GET /static/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1873
+WARNING 2021-11-09 14:55:44,415 basehttp 161 "GET /static/static/md_css/monokai.css HTTP/1.1" 404 1834
+WARNING 2021-11-09 14:55:44,419 basehttp 161 "GET /static/static/common/common.css HTTP/1.1" 404 1831
+WARNING 2021-11-09 14:55:44,420 basehttp 161 "GET /static/static/common/jquery.pagination.css HTTP/1.1" 404 1864
+WARNING 2021-11-09 14:55:44,446 basehttp 161 "GET /static/static/js/vue-2.5.16.js HTTP/1.1" 404 1828
+WARNING 2021-11-09 14:55:44,450 basehttp 161 "GET /static/static/js/jquery-1.12.4.min.js HTTP/1.1" 404 1849
+WARNING 2021-11-09 14:55:44,450 basehttp 161 "GET /static/static/js/axios-0.18.0.min.js HTTP/1.1" 404 1846
+WARNING 2021-11-09 14:55:44,470 basehttp 161 "GET /static/static/img/1.jpg HTTP/1.1" 404 1807
+WARNING 2021-11-09 14:55:44,524 basehttp 161 "GET /static/static/js/common.js HTTP/1.1" 404 1816
+WARNING 2021-11-09 14:55:44,526 basehttp 161 "GET /static/static/js/host.js HTTP/1.1" 404 1810
+WARNING 2021-11-09 14:55:44,527 basehttp 161 "GET /static/static/js/index.js HTTP/1.1" 404 1813
+WARNING 2021-11-09 14:55:44,528 basehttp 161 "GET /static/static/js/jquery.pagination.min.js HTTP/1.1" 404 1861
+WARNING 2021-11-09 14:55:44,536 basehttp 161 "GET /static/static/js/common.js HTTP/1.1" 404 1816
+WARNING 2021-11-09 14:55:44,546 basehttp 161 "GET /static/static/js/index.js HTTP/1.1" 404 1813
+WARNING 2021-11-09 14:55:44,559 basehttp 161 "GET /static/static/js/jquery.pagination.min.js HTTP/1.1" 404 1861
+INFO 2021-11-09 14:56:02,939 basehttp 161 "GET /index/ HTTP/1.1" 200 12128
+WARNING 2021-11-09 14:56:03,024 basehttp 161 "GET /static/static/md_css/monokai.css HTTP/1.1" 404 1834
+WARNING 2021-11-09 14:56:03,025 basehttp 161 "GET /static/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1873
+WARNING 2021-11-09 14:56:03,035 basehttp 161 "GET /static/static/common/common.css HTTP/1.1" 404 1831
+WARNING 2021-11-09 14:56:03,035 basehttp 161 "GET /static/static/common/jquery.pagination.css HTTP/1.1" 404 1864
+WARNING 2021-11-09 14:56:03,037 basehttp 161 "GET /static/static/js/vue-2.5.16.js HTTP/1.1" 404 1828
+WARNING 2021-11-09 14:56:03,038 basehttp 161 "GET /static/static/js/axios-0.18.0.min.js HTTP/1.1" 404 1846
+WARNING 2021-11-09 14:56:03,043 basehttp 161 "GET /static/static/js/jquery-1.12.4.min.js HTTP/1.1" 404 1849
+WARNING 2021-11-09 14:56:03,054 basehttp 161 "GET /static/static/js/host.js HTTP/1.1" 404 1810
+WARNING 2021-11-09 14:56:03,055 basehttp 161 "GET /static/static/js/axios-0.18.0.min.js HTTP/1.1" 404 1846
+WARNING 2021-11-09 14:56:03,076 basehttp 161 "GET /static/static/js/common.js HTTP/1.1" 404 1816
+WARNING 2021-11-09 14:56:03,080 basehttp 161 "GET /static/static/js/jquery-1.12.4.min.js HTTP/1.1" 404 1849
+WARNING 2021-11-09 14:56:03,083 basehttp 161 "GET /static/static/js/index.js HTTP/1.1" 404 1813
+WARNING 2021-11-09 14:56:03,104 basehttp 161 "GET /static/static/js/jquery.pagination.min.js HTTP/1.1" 404 1861
+WARNING 2021-11-09 14:56:03,104 basehttp 161 "GET /static/static/img/1.jpg HTTP/1.1" 404 1807
+WARNING 2021-11-09 14:56:03,110 basehttp 161 "GET /static/static/js/host.js HTTP/1.1" 404 1810
+WARNING 2021-11-09 14:56:03,127 basehttp 161 "GET /static/static/js/common.js HTTP/1.1" 404 1816
+WARNING 2021-11-09 14:56:03,137 basehttp 161 "GET /static/static/js/index.js HTTP/1.1" 404 1813
+WARNING 2021-11-09 14:56:03,151 basehttp 161 "GET /static/static/js/jquery.pagination.min.js HTTP/1.1" 404 1861
+INFO 2021-11-09 14:56:48,093 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog_hm\settings.py changed, reloading.
+INFO 2021-11-09 14:56:50,627 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-09 14:57:14,586 basehttp 161 "GET /index/ HTTP/1.1" 200 12130
+INFO 2021-11-09 14:57:14,643 basehttp 161 "GET /static/static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-11-09 14:57:14,645 basehttp 161 "GET /static/static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-11-09 14:57:14,646 basehttp 161 "GET /static/static/common/common.css HTTP/1.1" 200 381
+INFO 2021-11-09 14:57:14,651 basehttp 161 "GET /static/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-11-09 14:57:14,663 basehttp 161 "GET /static/static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-11-09 14:57:14,669 basehttp 161 "GET /static/static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-09 14:57:14,675 basehttp 161 "GET /static/static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-09 14:57:14,694 basehttp 161 "GET /static/static/js/host.js HTTP/1.1" 200 35
+INFO 2021-11-09 14:57:14,698 basehttp 161 "GET /static/static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-09 14:57:14,722 basehttp 161 "GET /static/static/js/index.js HTTP/1.1" 200 530
+INFO 2021-11-09 14:57:14,723 basehttp 161 "GET /static/static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-11-09 14:57:14,724 basehttp 161 "GET /static/static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2021-11-09 14:57:33,994 basehttp 161 "GET /index/ HTTP/1.1" 200 12115
