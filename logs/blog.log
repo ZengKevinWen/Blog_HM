@@ -124,3 +124,120 @@ INFO 2021-11-10 00:16:20,228 autoreload 637 Watching for file changes with StatR
 INFO 2021-11-10 00:17:44,361 basehttp 161 "GET / HTTP/1.1" 200 5231
 WARNING 2021-11-10 00:17:45,033 log 224 Not Found: /favicon.ico
 WARNING 2021-11-10 00:17:45,033 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2442
+INFO 2021-11-10 17:17:27,217 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-10 17:17:36,293 log 224 Not Found: /
+WARNING 2021-11-10 17:17:36,294 basehttp 161 "GET / HTTP/1.1" 404 2233
+WARNING 2021-11-10 17:17:36,606 log 224 Not Found: /favicon.ico
+WARNING 2021-11-10 17:17:36,607 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2284
+WARNING 2021-11-10 17:17:41,435 log 224 Not Found: /index/
+WARNING 2021-11-10 17:17:41,437 basehttp 161 "GET /index/ HTTP/1.1" 404 2269
+WARNING 2021-11-10 17:17:46,801 log 224 Not Found: /login/
+WARNING 2021-11-10 17:17:46,802 basehttp 161 "GET /login/ HTTP/1.1" 404 2269
+INFO 2021-11-10 17:17:51,502 basehttp 161 "GET /register/ HTTP/1.1" 200 5231
+INFO 2021-11-10 18:06:33,023 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog_hm\settings.py changed, reloading.
+INFO 2021-11-10 18:06:35,310 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 18:09:40,177 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\middleware.py changed, reloading.
+INFO 2021-11-10 18:09:42,008 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 18:14:07,459 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\middleware.py changed, reloading.
+INFO 2021-11-10 18:14:09,126 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 18:16:46,351 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\middleware.py changed, reloading.
+INFO 2021-11-10 18:16:48,094 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 18:17:08,922 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\middleware.py changed, reloading.
+INFO 2021-11-10 18:17:11,080 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 18:19:12,939 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\urls.py changed, reloading.
+INFO 2021-11-10 18:19:19,243 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 18:19:20,888 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-10 18:19:22,964 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-11-10 18:19:27,486 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+TypeError: 'MyMiddleWare' object is not callable
+ERROR 2021-11-10 18:19:27,487 basehttp 161 "GET / HTTP/1.1" 500 59373
+ERROR 2021-11-10 18:19:28,046 log 224 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+TypeError: 'MyMiddleWare' object is not callable
+ERROR 2021-11-10 18:19:28,048 basehttp 161 "GET /favicon.ico HTTP/1.1" 500 59044
+INFO 2021-11-10 18:19:37,365 basehttp 161 "GET /test_middleware HTTP/1.1" 301 0
+ERROR 2021-11-10 18:19:37,399 log 224 Internal Server Error: /test_middleware/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+TypeError: 'MyMiddleWare' object is not callable
+ERROR 2021-11-10 18:19:37,400 basehttp 161 "GET /test_middleware/ HTTP/1.1" 500 59280
+ERROR 2021-11-10 18:19:37,558 log 224 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+TypeError: 'MyMiddleWare' object is not callable
+ERROR 2021-11-10 18:19:37,559 basehttp 161 "GET /favicon.ico HTTP/1.1" 500 59060
+INFO 2021-11-10 18:23:04,914 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\middleware.py changed, reloading.
+INFO 2021-11-10 18:23:06,940 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-11-10 18:23:13,991 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+TypeError: 'MyMiddleWare' object is not callable
+ERROR 2021-11-10 18:23:13,992 basehttp 161 "GET / HTTP/1.1" 500 59152
+ERROR 2021-11-10 18:23:14,339 log 224 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+TypeError: 'MyMiddleWare' object is not callable
+ERROR 2021-11-10 18:23:14,340 basehttp 161 "GET /favicon.ico HTTP/1.1" 500 59044
+ERROR 2021-11-10 18:23:19,134 log 224 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+TypeError: 'MyMiddleWare' object is not callable
+ERROR 2021-11-10 18:23:19,136 basehttp 161 "GET /test/ HTTP/1.1" 500 59192
+ERROR 2021-11-10 18:23:19,281 log 224 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+TypeError: 'MyMiddleWare' object is not callable
+ERROR 2021-11-10 18:23:19,283 basehttp 161 "GET /favicon.ico HTTP/1.1" 500 59049
+ERROR 2021-11-10 18:23:26,866 log 224 Internal Server Error: /test_middleware/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+TypeError: 'MyMiddleWare' object is not callable
+ERROR 2021-11-10 18:23:26,868 basehttp 161 "GET /test_middleware/ HTTP/1.1" 500 59280
+ERROR 2021-11-10 18:23:27,016 log 224 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+TypeError: 'MyMiddleWare' object is not callable
+ERROR 2021-11-10 18:23:27,018 basehttp 161 "GET /favicon.ico HTTP/1.1" 500 59060
+INFO 2021-11-10 19:05:59,063 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\middleware.py changed, reloading.
+INFO 2021-11-10 19:06:00,724 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-11-10 19:06:04,000 log 224 Internal Server Error: /test_middleware/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+TypeError: 'MyMiddleWare' object is not callable
+ERROR 2021-11-10 19:06:04,001 basehttp 161 "GET /test_middleware/ HTTP/1.1" 500 59417
+ERROR 2021-11-10 19:06:04,129 log 224 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+TypeError: 'MyMiddleWare' object is not callable
+ERROR 2021-11-10 19:06:04,130 basehttp 161 "GET /favicon.ico HTTP/1.1" 500 59325
+INFO 2021-11-10 19:06:15,109 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\middleware.py changed, reloading.
+INFO 2021-11-10 19:06:16,973 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 19:06:36,470 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\middleware.py changed, reloading.
+INFO 2021-11-10 19:06:38,146 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 19:06:52,358 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\middleware.py changed, reloading.
+INFO 2021-11-10 19:06:54,069 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 19:06:54,403 basehttp 161 "GET /test_middleware/ HTTP/1.1" 200 40
+WARNING 2021-11-10 19:06:54,467 log 224 Not Found: /favicon.ico
+WARNING 2021-11-10 19:06:54,467 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2447
+INFO 2021-11-10 19:21:08,056 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\middleware.py changed, reloading.
+INFO 2021-11-10 19:21:20,438 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 19:22:25,280 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 19:23:31,650 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 19:26:13,641 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 19:26:49,481 basehttp 161 "GET /test_middleware/ HTTP/1.1" 200 40
+INFO 2021-11-10 19:28:14,900 autoreload 637 Watching for file changes with StatReloader
