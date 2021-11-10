@@ -102,3 +102,25 @@ INFO 2021-11-09 14:57:14,722 basehttp 161 "GET /static/static/js/index.js HTTP/1
 INFO 2021-11-09 14:57:14,723 basehttp 161 "GET /static/static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
 INFO 2021-11-09 14:57:14,724 basehttp 161 "GET /static/static/img/1.jpg HTTP/1.1" 200 78682
 INFO 2021-11-09 14:57:33,994 basehttp 161 "GET /index/ HTTP/1.1" 200 12115
+INFO 2021-11-09 21:21:50,789 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-09 21:22:35,178 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\urls.py changed, reloading.
+INFO 2021-11-09 21:22:36,859 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-09 21:22:41,443 log 224 Not Found: /
+WARNING 2021-11-09 21:22:41,443 basehttp 161 "GET / HTTP/1.1" 404 2233
+WARNING 2021-11-09 21:22:41,593 log 224 Not Found: /favicon.ico
+WARNING 2021-11-09 21:22:41,595 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2284
+INFO 2021-11-09 21:22:48,877 basehttp 161 "GET /register/ HTTP/1.1" 200 5263
+INFO 2021-11-09 21:22:48,920 basehttp 161 "GET /static/static/img/image_code.png HTTP/1.1" 200 3483
+INFO 2021-11-09 21:22:48,928 basehttp 161 "GET /static/static/js/register.js HTTP/1.1" 200 6407
+WARNING 2021-11-09 21:22:50,918 log 224 Not Found: /rgister
+WARNING 2021-11-09 21:22:50,918 basehttp 161 "GET /rgister HTTP/1.1" 404 2272
+INFO 2021-11-09 21:23:06,805 basehttp 161 "GET /register/ HTTP/1.1" 200 5248
+INFO 2021-11-09 23:58:29,004 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-09 23:58:31,126 basehttp 161 "GET / HTTP/1.1" 200 5248
+WARNING 2021-11-09 23:58:31,666 log 224 Not Found: /favicon.ico
+WARNING 2021-11-09 23:58:31,668 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2442
+INFO 2021-11-10 00:16:18,443 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-10 00:16:20,228 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 00:17:44,361 basehttp 161 "GET / HTTP/1.1" 200 5231
+WARNING 2021-11-10 00:17:45,033 log 224 Not Found: /favicon.ico
+WARNING 2021-11-10 00:17:45,033 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2442
