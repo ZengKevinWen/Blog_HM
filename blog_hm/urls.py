@@ -24,4 +24,5 @@ def loggings(request):
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include(('user.urls','user'),namespace='user')),
+    path('dasd/',loggings)
 ]
