@@ -241,3 +241,20 @@ INFO 2021-11-10 19:23:31,650 autoreload 637 Watching for file changes with StatR
 INFO 2021-11-10 19:26:13,641 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-11-10 19:26:49,481 basehttp 161 "GET /test_middleware/ HTTP/1.1" 200 40
 INFO 2021-11-10 19:28:14,900 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 20:42:51,898 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-10 21:05:08,666 log 224 Not Found: /
+WARNING 2021-11-10 21:05:08,667 basehttp 161 "GET / HTTP/1.1" 404 2396
+WARNING 2021-11-10 21:05:09,020 log 224 Not Found: /favicon.ico
+WARNING 2021-11-10 21:05:09,022 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2447
+WARNING 2021-11-10 21:05:12,385 log 224 Not Found: /login/
+WARNING 2021-11-10 21:05:12,390 basehttp 161 "GET /login/ HTTP/1.1" 404 2432
+INFO 2021-11-10 21:05:17,439 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-11-10 21:05:17,661 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2224
+INFO 2021-11-10 21:05:18,010 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-11-10 21:05:18,042 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2224
+INFO 2021-11-10 21:08:57,172 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\models.py changed, reloading.
+INFO 2021-11-10 21:08:59,051 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 21:14:21,084 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\models.py changed, reloading.
+INFO 2021-11-10 21:14:23,832 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-10 21:17:43,523 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\models.py changed, reloading.
+INFO 2021-11-10 21:17:46,106 autoreload 637 Watching for file changes with StatReloader

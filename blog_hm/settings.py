@@ -124,6 +124,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
+# 在user.model下定义了User模型类(继承了AbstractUser同时又重写了项目需要的字段)----在使用该模型类时，要告诉django系统使用那个用户模型类
+AUTH_USER_MODEL='user.User' # 子应用.model中的User模型类
 
 STATIC_URL = '/static/'
 # 配置静态文件路径
