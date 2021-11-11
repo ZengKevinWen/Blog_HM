@@ -9,6 +9,9 @@ class User(AbstractUser):
     avatar = models.ImageField(upload_to='avatar/%Y%m%d/',blank=True)
     # 用户描述
     user_desc = models.TextField(blank=True)
+    # 修改User中用户认证的字段 username --> mobile
+    USERNAME_FIELD = 'mobile'
+
     class Meta:
         db_table = 'db_user'
         verbose_name = '用户信息'

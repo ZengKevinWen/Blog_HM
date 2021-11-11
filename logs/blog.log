@@ -258,3 +258,468 @@ INFO 2021-11-10 21:14:21,084 autoreload 251 C:\Users\Administrator\Desktop\blog_
 INFO 2021-11-10 21:14:23,832 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-11-10 21:17:43,523 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\models.py changed, reloading.
 INFO 2021-11-10 21:17:46,106 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 10:58:47,471 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-11 10:58:51,279 log 224 Not Found: /
+WARNING 2021-11-11 10:58:51,283 basehttp 161 "GET / HTTP/1.1" 404 2396
+WARNING 2021-11-11 10:58:51,314 log 224 Not Found: /
+WARNING 2021-11-11 10:58:51,314 basehttp 161 "GET / HTTP/1.1" 404 2396
+WARNING 2021-11-11 10:58:51,330 log 224 Not Found: /
+WARNING 2021-11-11 10:58:51,331 basehttp 161 "GET / HTTP/1.1" 404 2396
+WARNING 2021-11-11 10:58:51,721 log 224 Not Found: /favicon.ico
+WARNING 2021-11-11 10:58:51,722 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2447
+WARNING 2021-11-11 10:58:57,055 log 224 Not Found: /index/
+WARNING 2021-11-11 10:58:57,056 basehttp 161 "GET /index/ HTTP/1.1" 404 2432
+WARNING 2021-11-11 10:58:58,840 log 224 Not Found: /ilogi
+WARNING 2021-11-11 10:58:58,841 basehttp 161 "GET /ilogi HTTP/1.1" 404 2429
+WARNING 2021-11-11 10:59:02,717 log 224 Not Found: /login/
+WARNING 2021-11-11 10:59:02,718 basehttp 161 "GET /login/ HTTP/1.1" 404 2432
+WARNING 2021-11-11 10:59:07,871 log 224 Not Found: /login/
+WARNING 2021-11-11 10:59:07,872 basehttp 161 "GET /login/ HTTP/1.1" 404 2432
+INFO 2021-11-11 10:59:08,898 basehttp 161 "GET /register/ HTTP/1.1" 200 5231
+INFO 2021-11-11 11:15:01,947 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 11:15:03,724 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 11:21:04,741 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 11:21:06,715 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 11:22:00,298 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 11:22:02,009 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 11:22:30,134 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 11:22:31,985 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 11:24:23,951 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 11:24:25,622 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 11:29:06,175 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 11:29:08,011 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 11:31:21,199 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 11:31:22,871 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 11:31:36,109 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 11:31:37,792 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 11:31:53,120 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 11:31:54,844 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 11:32:32,493 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 11:32:34,176 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 11:34:03,880 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 11:34:05,511 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 11:34:13,855 basehttp 161 "GET /register/ HTTP/1.1" 200 5231
+WARNING 2021-11-11 11:34:15,499 log 224 Not Found: /index/
+WARNING 2021-11-11 11:34:15,500 basehttp 161 "GET /index/ HTTP/1.1" 404 2607
+WARNING 2021-11-11 11:34:17,113 log 224 Bad Request: /imagecode/
+WARNING 2021-11-11 11:34:17,113 basehttp 161 "GET /imagecode/ HTTP/1.1" 400 16
+ERROR 2021-11-11 11:34:29,376 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\user\views.py", line 31, in get
+    text,img_binary = captcha.captcha()
+  File "C:\Users\Administrator\Desktop\blog_hm\libs\captcha\captcha.py", line 202, in captcha
+    image = Image.new('RGB', (self.width, self.height), (255, 255, 255))
+AttributeError: 'Captcha' object has no attribute 'width'
+ERROR 2021-11-11 11:34:29,379 basehttp 161 "GET /imagecode/?uuid=2512 HTTP/1.1" 500 82693
+INFO 2021-11-11 11:46:23,666 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 11:47:12,775 basehttp 161 "GET /imagecode/?uuid=2512 HTTP/1.1" 200 3362
+INFO 2021-11-11 11:47:15,648 basehttp 161 "GET /imagecode/?uuid=2512 HTTP/1.1" 200 2647
+INFO 2021-11-11 11:47:18,300 basehttp 161 "GET /imagecode/?uuid=2512 HTTP/1.1" 200 3664
+INFO 2021-11-11 11:47:19,974 basehttp 161 "GET /imagecode/?uuid=2512 HTTP/1.1" 200 3117
+INFO 2021-11-11 11:54:36,492 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 11:54:38,229 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 12:00:32,133 basehttp 161 "GET /imagecode/?uuid=2512 HTTP/1.1" 200 3309
+INFO 2021-11-11 12:00:33,274 basehttp 161 "GET /imagecode/?uuid=2512 HTTP/1.1" 200 3841
+INFO 2021-11-11 12:00:34,065 basehttp 161 "GET /imagecode/?uuid=2512 HTTP/1.1" 200 3198
+INFO 2021-11-11 12:01:18,769 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+INFO 2021-11-11 12:01:19,178 basehttp 161 "GET /imagecode/?uuid=76ebeba9-a3ba-4389-bd93-8ffced7f3954 HTTP/1.1" 200 3299
+INFO 2021-11-11 12:01:20,367 basehttp 161 "GET /imagecode/?uuid=13ccadf0-7306-49d7-b8fc-e8ad2d14a45f HTTP/1.1" 200 3170
+INFO 2021-11-11 12:01:20,954 basehttp 161 "GET /imagecode/?uuid=30cf26b1-2945-4d68-824d-5ecb35829e37 HTTP/1.1" 200 3037
+INFO 2021-11-11 16:57:57,872 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-11 16:57:59,224 log 224 Not Found: /
+WARNING 2021-11-11 16:57:59,225 basehttp 161 "GET / HTTP/1.1" 404 2571
+INFO 2021-11-11 16:58:01,839 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+INFO 2021-11-11 16:58:02,603 basehttp 161 "GET /imagecode/?uuid=7ca97a4d-8ff9-4b3d-be7b-8c50b88cc9c1 HTTP/1.1" 200 2858
+WARNING 2021-11-11 16:58:25,018 log 224 Not Found: /smscode/
+WARNING 2021-11-11 16:58:25,020 basehttp 161 "GET /smscode/?mobile=15773998780&image_code=tivm&uuid=7ca97a4d-8ff9-4b3d-be7b-8c50b88cc9c1 HTTP/1.1" 404 2698
+WARNING 2021-11-11 16:58:26,347 log 224 Not Found: /smscode/
+WARNING 2021-11-11 16:58:26,348 basehttp 161 "GET /smscode/?mobile=15773998780&image_code=tivm&uuid=7ca97a4d-8ff9-4b3d-be7b-8c50b88cc9c1 HTTP/1.1" 404 2698
+WARNING 2021-11-11 16:58:27,437 log 224 Not Found: /smscode/
+WARNING 2021-11-11 16:58:27,437 basehttp 161 "GET /smscode/?mobile=15773998780&image_code=tivm&uuid=7ca97a4d-8ff9-4b3d-be7b-8c50b88cc9c1 HTTP/1.1" 404 2698
+WARNING 2021-11-11 16:58:30,785 log 224 Not Found: /smscode/
+WARNING 2021-11-11 16:58:30,785 basehttp 161 "GET /smscode/?mobile=15773998780&image_code=tivm&uuid=7ca97a4d-8ff9-4b3d-be7b-8c50b88cc9c1 HTTP/1.1" 404 2698
+WARNING 2021-11-11 16:58:32,836 log 224 Not Found: /smscode/
+WARNING 2021-11-11 16:58:32,836 basehttp 161 "GET /smscode/?mobile=15773998780&image_code=tivm&uuid=7ca97a4d-8ff9-4b3d-be7b-8c50b88cc9c1 HTTP/1.1" 404 2698
+WARNING 2021-11-11 16:58:34,217 log 224 Not Found: /smscode/
+WARNING 2021-11-11 16:58:34,218 basehttp 161 "GET /smscode/?mobile=15773998780&image_code=tivm&uuid=7ca97a4d-8ff9-4b3d-be7b-8c50b88cc9c1 HTTP/1.1" 404 2698
+WARNING 2021-11-11 16:58:35,136 log 224 Not Found: /smscode/
+WARNING 2021-11-11 16:58:35,137 basehttp 161 "GET /smscode/?mobile=15773998780&image_code=tivm&uuid=7ca97a4d-8ff9-4b3d-be7b-8c50b88cc9c1 HTTP/1.1" 404 2698
+WARNING 2021-11-11 17:01:52,280 log 224 Not Found: /smscode/
+WARNING 2021-11-11 17:01:52,281 basehttp 161 "GET /smscode/?mobile=15773998780&image_code=tivm&uuid=7ca97a4d-8ff9-4b3d-be7b-8c50b88cc9c1 HTTP/1.1" 404 2698
+WARNING 2021-11-11 17:01:52,947 log 224 Not Found: /smscode/
+WARNING 2021-11-11 17:01:52,947 basehttp 161 "GET /smscode/?mobile=15773998780&image_code=tivm&uuid=7ca97a4d-8ff9-4b3d-be7b-8c50b88cc9c1 HTTP/1.1" 404 2698
+INFO 2021-11-11 17:04:39,174 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:04:41,298 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:04:44,781 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:04:47,138 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:06:26,301 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:06:28,918 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:06:43,055 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:06:45,393 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:08:09,911 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:08:12,378 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:08:26,418 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:08:28,997 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:09:50,395 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:09:52,548 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:10:20,672 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:10:22,974 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:12:11,387 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\urls.py changed, reloading.
+INFO 2021-11-11 17:12:13,552 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:12:14,155 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+INFO 2021-11-11 17:12:16,344 basehttp 161 "GET /smscode HTTP/1.1" 301 0
+INFO 2021-11-11 17:12:16,607 basehttp 161 "GET /smscode/ HTTP/1.1" 200 12
+INFO 2021-11-11 17:13:40,682 basehttp 161 "GET /smscode/ HTTP/1.1" 200 12
+INFO 2021-11-11 17:14:31,765 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-11 17:14:39,250 log 224 Not Found: /
+WARNING 2021-11-11 17:14:39,250 basehttp 161 "GET / HTTP/1.1" 404 2742
+INFO 2021-11-11 17:14:47,223 basehttp 161 "GET /smscode/ HTTP/1.1" 200 12
+INFO 2021-11-11 17:17:55,813 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-11-11 17:18:05,591 log 224 Internal Server Error: /smscode/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view user.views.SmscodeView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 17:18:05,593 basehttp 161 "GET /smscode/ HTTP/1.1" 500 69279
+INFO 2021-11-11 17:19:29,178 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:19:31,108 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:20:14,716 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:20:18,966 basehttp 161 "GET /smscode/ HTTP/1.1" 200 12
+INFO 2021-11-11 17:21:21,221 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:21:23,009 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:21:26,377 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:21:28,135 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:21:46,011 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:21:47,743 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:22:15,248 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:22:16,961 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:22:22,062 basehttp 161 "GET /smscode/ HTTP/1.1" 200 12
+INFO 2021-11-11 17:22:45,024 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:22:49,644 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:22:50,656 basehttp 161 "GET /smscode/ HTTP/1.1" 200 12
+INFO 2021-11-11 17:23:05,295 basehttp 161 "GET /smscode/ HTTP/1.1" 200 12
+INFO 2021-11-11 17:23:29,228 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:23:37,364 basehttp 161 "GET /smscode/ HTTP/1.1" 200 12
+INFO 2021-11-11 17:24:02,403 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:24:04,285 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:24:04,871 basehttp 161 "GET /smscode/ HTTP/1.1" 200 12
+INFO 2021-11-11 17:24:39,338 basehttp 161 "GET /smscode/ HTTP/1.1" 200 12
+INFO 2021-11-11 17:25:47,266 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:25:49,154 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:26:44,686 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:26:46,556 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:28:19,497 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:28:23,007 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:30:31,688 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:30:33,992 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:31:54,581 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:31:57,337 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:36:40,472 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:36:42,780 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:38:54,294 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:38:56,324 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:40:10,131 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:40:12,372 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:40:37,194 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:40:39,257 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:41:19,979 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:41:22,371 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:44:15,087 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:44:17,266 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:46:50,331 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:46:52,665 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:47:29,376 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:47:31,430 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:47:50,771 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:47:53,040 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:48:44,127 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:48:46,173 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:48:56,041 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:48:58,169 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:49:06,798 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:49:08,964 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:49:34,797 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 17:49:36,825 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 17:53:18,765 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 20:28:50,968 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 20:28:51,526 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+INFO 2021-11-11 20:28:51,836 basehttp 161 "GET /imagecode/?uuid=8c2e529d-2c1a-4c3c-9c95-df733a81b59f HTTP/1.1" 200 3264
+INFO 2021-11-11 20:30:35,649 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 20:30:38,497 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 20:32:37,446 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 20:32:39,474 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 20:38:12,280 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\urls.py changed, reloading.
+INFO 2021-11-11 20:38:14,066 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 20:54:09,898 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 20:54:11,629 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 20:59:45,206 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 20:59:47,021 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:01:53,031 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-11-11 21:01:56,012 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\user\views.py", line 27, in get
+    password2 = request.POSTT.get("password2")
+AttributeError: 'WSGIRequest' object has no attribute 'POSTT'
+ERROR 2021-11-11 21:01:56,016 basehttp 161 "GET /register/ HTTP/1.1" 500 78269
+INFO 2021-11-11 21:02:18,610 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:02:20,305 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-11-11 21:02:20,849 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\user\views.py", line 29, in get
+    if not re.match(r'1[3-9]\d{9}$',mobile):
+  File "E:\Anaconda\Anaconda\lib\re.py", line 191, in match
+    return _compile(pattern, flags).match(string)
+TypeError: expected string or bytes-like object
+ERROR 2021-11-11 21:02:20,852 basehttp 161 "GET /register/ HTTP/1.1" 500 82446
+INFO 2021-11-11 21:02:45,638 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:02:47,400 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-11-11 21:02:47,922 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\user\views.py", line 29, in get
+    if not re.match(r'^1[3-9]\d{9}$',mobile):
+  File "E:\Anaconda\Anaconda\lib\re.py", line 191, in match
+    return _compile(pattern, flags).match(string)
+TypeError: expected string or bytes-like object
+ERROR 2021-11-11 21:02:47,925 basehttp 161 "GET /register/ HTTP/1.1" 500 82449
+INFO 2021-11-11 21:04:27,800 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:04:29,481 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:04:39,395 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-11-11 21:04:43,126 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\user\views.py", line 29, in get
+    if not re.match(r'^1[3-9]\d{9}$', mobile):
+  File "E:\Anaconda\Anaconda\lib\re.py", line 191, in match
+    return _compile(pattern, flags).match(string)
+TypeError: expected string or bytes-like object
+ERROR 2021-11-11 21:04:43,128 basehttp 161 "GET /register/ HTTP/1.1" 500 82451
+INFO 2021-11-11 21:05:00,663 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:05:02,686 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:06:35,696 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-11 21:06:40,294 log 224 Bad Request: /register/
+WARNING 2021-11-11 21:06:40,295 basehttp 161 "GET /register/ HTTP/1.1" 400 24
+INFO 2021-11-11 21:07:04,082 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:07:04,682 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:07:06,487 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:07:06,822 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+INFO 2021-11-11 21:07:06,942 basehttp 161 "GET /imagecode/?uuid=3ef4bb4f-2a5b-45c1-b74f-dbd599d796b2 HTTP/1.1" 200 3557
+INFO 2021-11-11 21:07:08,009 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-11 21:07:21,936 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-11-11 21:07:21,937 basehttp 161 "POST /register/ HTTP/1.1" 403 2514
+INFO 2021-11-11 21:07:54,796 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:07:58,044 basehttp 161 "GET /register/ HTTP/1.1" 200 5353
+INFO 2021-11-11 21:07:58,122 basehttp 161 "GET /imagecode/?uuid=47927573-dc7f-40b0-90e8-fd874bde139c HTTP/1.1" 200 3167
+ERROR 2021-11-11 21:08:16,946 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\user\views.py", line 41, in post
+    sms_code_server = int(redis_conn.get("sms:%s" % mobile).decode())  # 二进制文件转化为字符串s
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2021-11-11 21:08:16,951 basehttp 161 "POST /register/ HTTP/1.1" 500 80434
+INFO 2021-11-11 21:09:04,735 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:09:05,096 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:09:06,637 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:09:08,943 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:09:39,460 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:09:39,478 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:09:41,497 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:09:43,534 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:09:43,614 basehttp 161 "GET /register/ HTTP/1.1" 200 5353
+INFO 2021-11-11 21:09:43,716 basehttp 161 "GET /imagecode/?uuid=c067a8a3-64a4-48d4-b2bf-2089dc97a513 HTTP/1.1" 200 2983
+WARNING 2021-11-11 21:09:59,921 log 224 Bad Request: /register/
+WARNING 2021-11-11 21:09:59,922 basehttp 161 "POST /register/ HTTP/1.1" 400 15
+INFO 2021-11-11 21:10:46,934 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:10:47,905 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:10:48,909 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:10:49,287 basehttp 161 "GET /register/ HTTP/1.1" 200 5353
+INFO 2021-11-11 21:10:49,379 basehttp 161 "GET /imagecode/?uuid=54a89dc2-de16-44b0-ac24-33f310097b80 HTTP/1.1" 200 3252
+INFO 2021-11-11 21:10:51,749 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:11:05,711 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-11-11 21:11:05,718 basehttp 161 "GET /login/ HTTP/1.1" 200 3133
+WARNING 2021-11-11 21:11:05,764 basehttp 161 "GET /static/static/js/login.js HTTP/1.1" 404 1813
+INFO 2021-11-11 21:11:26,597 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:11:27,049 basehttp 161 "GET /register/ HTTP/1.1" 200 5353
+INFO 2021-11-11 21:11:27,453 basehttp 161 "GET /imagecode/?uuid=d7f3c6a0-0c01-4884-8556-db806d4f235b HTTP/1.1" 200 3299
+INFO 2021-11-11 21:11:41,129 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-11-11 21:11:41,136 basehttp 161 "GET /login/ HTTP/1.1" 200 3133
+WARNING 2021-11-11 21:11:41,184 basehttp 161 "GET /static/static/js/login.js HTTP/1.1" 404 1813
+INFO 2021-11-11 21:11:57,077 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:12:01,533 basehttp 161 "GET /login/ HTTP/1.1" 200 3133
+WARNING 2021-11-11 21:12:01,637 basehttp 161 "GET /static/static/js/login.js HTTP/1.1" 404 1813
+WARNING 2021-11-11 21:13:55,770 log 224 Not Found: /
+WARNING 2021-11-11 21:13:55,771 basehttp 161 "GET / HTTP/1.1" 404 2909
+WARNING 2021-11-11 21:13:59,581 basehttp 161 "GET /static/static/js/login.js HTTP/1.1" 404 1813
+INFO 2021-11-11 21:14:19,249 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:14:20,481 basehttp 161 "GET /login/ HTTP/1.1" 200 3070
+INFO 2021-11-11 21:28:45,099 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:28:47,424 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:32:30,073 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:32:32,546 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:33:55,144 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:33:57,336 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:37:22,914 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:37:25,530 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:41:17,282 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:41:19,578 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:43:08,502 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:43:10,891 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:43:30,317 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:47:06,669 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-11 21:47:09,675 log 224 Not Found: /index/
+WARNING 2021-11-11 21:47:09,675 basehttp 161 "GET /index/ HTTP/1.1" 404 3106
+INFO 2021-11-11 21:47:21,539 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\urls.py changed, reloading.
+INFO 2021-11-11 21:47:24,014 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:47:24,486 basehttp 161 "GET /index/ HTTP/1.1" 200 11937
+INFO 2021-11-11 21:48:54,683 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 21:49:11,761 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:49:23,730 basehttp 161 "GET /login/ HTTP/1.1" 200 3212
+INFO 2021-11-11 21:49:23,746 basehttp 75 - Broken pipe from ('127.0.0.1', 53755)
+
+WARNING 2021-11-11 21:49:52,022 log 224 Bad Request: /login/
+WARNING 2021-11-11 21:49:52,023 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-11-11 21:50:19,197 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:50:19,975 basehttp 161 "GET /login/ HTTP/1.1" 200 3212
+WARNING 2021-11-11 21:50:43,722 log 224 Bad Request: /login/
+WARNING 2021-11-11 21:50:43,723 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-11-11 21:51:00,491 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:51:03,599 basehttp 161 "GET /login/ HTTP/1.1" 200 3212
+ERROR 2021-11-11 21:51:42,540 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\user\views.py", line 81, in post
+    login(request,user)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\auth\__init__.py", line 129, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\utils\functional.py", line 247, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+ERROR 2021-11-11 21:51:42,549 basehttp 161 "POST /login/ HTTP/1.1" 500 91026
+INFO 2021-11-11 21:54:41,051 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:54:42,505 basehttp 161 "GET /login/ HTTP/1.1" 200 3212
+INFO 2021-11-11 21:57:10,026 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 21:57:25,656 basehttp 161 "GET /login/ HTTP/1.1" 200 3212
+INFO 2021-11-11 22:00:38,665 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:00:41,831 basehttp 161 "GET /login/ HTTP/1.1" 200 3212
+INFO 2021-11-11 22:04:03,660 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:04:10,395 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:11:09,982 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:11:17,621 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:11:49,361 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:11:56,110 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:14:07,603 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:14:13,215 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:15:07,948 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:15:13,397 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:16:13,181 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:16:13,819 basehttp 161 "GET /login/ HTTP/1.1" 200 3212
+INFO 2021-11-11 22:16:14,067 basehttp 161 "GET /register/ HTTP/1.1" 200 5353
+INFO 2021-11-11 22:16:15,316 basehttp 161 "GET /imagecode/?uuid=fb0937d6-6296-4130-a7d8-6f61802a5ed6 HTTP/1.1" 200 3236
+INFO 2021-11-11 22:17:03,169 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+WARNING 2021-11-11 22:17:22,834 log 224 Bad Request: /login/
+WARNING 2021-11-11 22:17:22,835 basehttp 161 "POST /login/ HTTP/1.1" 400 27
+INFO 2021-11-11 22:19:13,733 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:19:16,305 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:21:23,436 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:21:26,402 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:34:14,524 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:34:16,783 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:36:18,510 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:36:21,216 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:36:46,715 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:36:49,694 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:37:28,966 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:37:31,865 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:40:41,528 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:40:44,733 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:44:06,955 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:44:09,608 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:47:44,718 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\models.py changed, reloading.
+INFO 2021-11-11 22:47:47,028 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:48:25,960 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:48:42,685 basehttp 161 "GET /login/ HTTP/1.1" 200 3212
+WARNING 2021-11-11 22:49:34,446 log 224 Bad Request: /login/
+WARNING 2021-11-11 22:49:34,447 basehttp 161 "POST /login/ HTTP/1.1" 400 27
+INFO 2021-11-11 22:50:10,147 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\models.py changed, reloading.
+INFO 2021-11-11 22:50:15,447 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:52:23,647 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:52:28,551 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:53:43,816 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 22:53:49,051 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:54:01,184 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:54:02,465 basehttp 161 "GET /login/ HTTP/1.1" 200 3212
+INFO 2021-11-11 22:54:05,069 basehttp 161 "GET /register/ HTTP/1.1" 200 5353
+INFO 2021-11-11 22:54:05,654 basehttp 161 "GET /imagecode/?uuid=16de4e2c-bbb8-4b38-9174-91a7883285fd HTTP/1.1" 200 3367
+INFO 2021-11-11 22:54:19,621 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-11-11 22:54:54,277 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 22:55:00,879 basehttp 161 "GET /login/ HTTP/1.1" 200 3212
+INFO 2021-11-11 22:55:53,440 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 22:55:53,447 basehttp 161 "GET /index/ HTTP/1.1" 200 11937
+INFO 2021-11-11 23:02:24,448 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-11 23:02:30,304 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 23:05:08,323 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 23:05:13,365 basehttp 161 "GET /index/ HTTP/1.1" 200 11937
+INFO 2021-11-11 23:11:58,584 basehttp 161 "GET /index/ HTTP/1.1" 200 11944
+INFO 2021-11-11 23:22:27,684 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\urls.py changed, reloading.
+INFO 2021-11-11 23:22:27,769 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\urls.py changed, reloading.
+INFO 2021-11-11 23:22:31,389 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 23:22:34,583 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-11 23:23:42,228 basehttp 161 "GET /index/ HTTP/1.1" 200 11952
+INFO 2021-11-11 23:24:00,709 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-11 23:24:00,722 basehttp 161 "GET /login/ HTTP/1.1" 200 3212
