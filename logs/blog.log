@@ -723,3 +723,130 @@ INFO 2021-11-11 23:22:34,583 autoreload 637 Watching for file changes with StatR
 INFO 2021-11-11 23:23:42,228 basehttp 161 "GET /index/ HTTP/1.1" 200 11952
 INFO 2021-11-11 23:24:00,709 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
 INFO 2021-11-11 23:24:00,722 basehttp 161 "GET /login/ HTTP/1.1" 200 3212
+INFO 2021-11-12 10:42:41,323 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-12 10:43:01,864 log 224 Not Found: /
+WARNING 2021-11-12 10:43:01,865 basehttp 161 "GET / HTTP/1.1" 404 3245
+WARNING 2021-11-12 10:43:02,251 log 224 Not Found: /favicon.ico
+WARNING 2021-11-12 10:43:02,252 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3296
+INFO 2021-11-12 10:43:05,307 basehttp 161 "GET /index/ HTTP/1.1" 200 11952
+INFO 2021-11-12 10:43:13,349 basehttp 161 "GET /login/ HTTP/1.1" 200 3212
+INFO 2021-11-12 10:43:28,477 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-12 10:43:28,482 basehttp 161 "GET /index/ HTTP/1.1" 200 11952
+INFO 2021-11-12 10:46:06,588 basehttp 161 "GET /login/ HTTP/1.1" 200 3202
+WARNING 2021-11-12 10:46:10,115 log 224 Not Found: /login/forget_password.html
+WARNING 2021-11-12 10:46:10,116 basehttp 161 "GET /login/forget_password.html HTTP/1.1" 404 3341
+INFO 2021-11-12 10:48:42,698 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\urls.py changed, reloading.
+INFO 2021-11-12 10:48:45,064 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-12 10:49:19,375 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-12 10:49:21,583 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-12 10:49:23,293 basehttp 161 "GET /foget_password HTTP/1.1" 301 0
+INFO 2021-11-12 10:49:23,319 basehttp 161 "GET /foget_password/ HTTP/1.1" 200 5246
+ERROR 2021-11-12 10:52:00,239 log 224 Internal Server Error: /foget_password/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\user\views.py", line 111, in get
+    return render(request,'forget_password.html')
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'center' not found. 'center' is not a valid view function or pattern name.
+ERROR 2021-11-12 10:52:00,246 basehttp 161 "GET /foget_password/ HTTP/1.1" 500 130344
+INFO 2021-11-12 10:52:19,767 basehttp 161 "GET /foget_password/ HTTP/1.1" 200 5186
+ERROR 2021-11-12 10:52:57,741 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\user\views.py", line 65, in get
+    return render(request,'login.html')
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forget_password' not found. 'forget_password' is not a valid view function or pattern name.
+ERROR 2021-11-12 10:52:57,744 basehttp 161 "GET /login/ HTTP/1.1" 500 135465
+INFO 2021-11-12 10:53:36,194 basehttp 161 "GET /login/ HTTP/1.1" 200 3198
+INFO 2021-11-12 10:53:37,760 basehttp 161 "GET /foget_password/ HTTP/1.1" 200 5186
+INFO 2021-11-12 10:55:59,080 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-12 10:56:01,194 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-12 11:21:19,636 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-12 11:21:22,396 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-12 11:22:42,857 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-12 11:22:45,068 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-12 11:23:56,672 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-12 11:23:58,823 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-12 11:26:46,506 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-12 11:26:49,053 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-12 11:30:38,810 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-12 11:30:40,951 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-12 11:31:05,852 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-12 11:31:08,032 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-12 11:32:31,669 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-12 11:32:33,849 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-12 11:32:38,404 basehttp 161 "GET /foget_password/ HTTP/1.1" 200 5173
+INFO 2021-11-12 11:32:38,617 basehttp 161 "GET /imagecode/?uuid=6a2c9ce0-deb0-4a8e-bfa7-7301f74a5724 HTTP/1.1" 200 3489
+INFO 2021-11-12 11:32:58,575 basehttp 161 "GET /imagecode/?uuid=2c400f3a-6715-4ffd-98aa-0cae62c189cc HTTP/1.1" 200 3158
+WARNING 2021-11-12 11:33:07,987 log 224 Forbidden (CSRF token missing or incorrect.): /foget_password/
+WARNING 2021-11-12 11:33:07,990 basehttp 161 "POST /foget_password/ HTTP/1.1" 403 2514
+INFO 2021-11-12 11:33:43,059 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-12 11:33:49,991 basehttp 161 "GET /foget_password/ HTTP/1.1" 200 5315
+INFO 2021-11-12 11:33:50,221 basehttp 161 "GET /imagecode/?uuid=0d72093d-8d61-4ecb-bb14-7bb24bd27f08 HTTP/1.1" 200 3309
+INFO 2021-11-12 11:35:02,827 basehttp 161 "POST /foget_password/ HTTP/1.1" 302 0
+INFO 2021-11-12 11:35:02,840 basehttp 161 "GET /login/ HTTP/1.1" 200 3198
+INFO 2021-11-12 11:35:05,841 basehttp 161 "GET /foget_password/ HTTP/1.1" 200 5315
+INFO 2021-11-12 11:35:05,939 basehttp 161 "GET /imagecode/?uuid=30f9e828-71ef-4489-a533-be34dae69d48 HTTP/1.1" 200 3002
+INFO 2021-11-12 11:36:41,666 basehttp 161 "POST /foget_password/ HTTP/1.1" 302 0
+INFO 2021-11-12 11:36:41,677 basehttp 161 "GET /login/ HTTP/1.1" 200 3198
+WARNING 2021-11-12 11:37:13,052 log 224 Bad Request: /login/
+WARNING 2021-11-12 11:37:13,053 basehttp 161 "POST /login/ HTTP/1.1" 400 27
+INFO 2021-11-12 11:37:23,569 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-12 11:37:23,579 basehttp 161 "GET /index/ HTTP/1.1" 200 11952
+INFO 2021-11-12 11:37:26,440 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-12 11:37:26,447 basehttp 161 "GET /login/ HTTP/1.1" 200 3198
+INFO 2021-11-12 11:38:44,844 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-12 11:38:50,707 autoreload 637 Watching for file changes with StatReloader

@@ -57,6 +57,7 @@ class RegisterView(View):
         # 返回 login页面
         return redirect(reverse("user:login"))
 
+
 from django.contrib.auth import authenticate  # 用户认证方法
 from django.contrib.auth import login  # 用户状态保持
 # 登录模型类
@@ -103,6 +104,49 @@ class LogoutView(View):
         resp.delete_cookie('username')
         resp.delete_cookie('is_login')
         return resp
+
+
+# 忘记密码模型类
+class ForgetPasswordView(View):
+    def get(self,request):
+        return render(request,'forget_password.html')
+    def post(self,request):
+        # 获取参数并判断  手机号 密码  图片验证码(在图片验证码模型类中判断 成功----获得短信验证码)
+        mobile = request.POST.get("mobile")
+        password = request.POST.get('password')
+        password2 = request.POST.get("password2")
+        sms_code = request.POST.get("sms_code")
+        if not all([mobile,password,password2,sms_code]):
+            return JsonResponse({"error":'缺少必要参数'})
+        if not re.match(r'^1[3-9]\d{9}$',mobile):
+            return HttpResponseBadRequest("手机号码错误")
+        if not re.match(r'^[0-9a-zA-Z]{8,20}$',password2):
+            return HttpResponseBadRequest("密码错误")
+        if  password2 != password:
+            return HttpResponseBadRequest("密码不相同")
+        # 从这里开始验证短信验证码
+                # redis_conn = get_redis_connection('default')
+                # sms_code_server = redis_conn.get("sms:%s"%mobile)
+                # try:
+                #     redis_conn.delete("sms:%s"%mobile)
+                # except Exception as e:
+                #     loggings.error(e)
+                #     print(e)
+                # if not sms_code_server | sms_code_server.decode()!= sms_code :         #这种写法自己在尝试　　不知道错没错
+                #     return HttpResponseBadRequest("短信验证码过期或短信验证码错误")
+        # 修改密码  通过django自带的方法来修改密码  这样还是会加密  还是可以通过authenticate方法认证
+        # set_password(密码)---设置密码   check_password(密码)-----校验密码
+        # 先获取对象
+        try:
+            user = User.objects.get(mobile=mobile)
+        except Exception as e:
+            # 如果没有找到则创建用户
+            user = User.objects.create_user(mobile=mobile,username=mobile,password=password)
+            return redirect(reverse('user:login'))
+        user.set_password(password)  # 密码加密！！！
+        user.save()   # 注意  修改密码时要进行save操作
+        # 返回登录页面
+        return redirect(reverse('user:login'))
 
 
 # 验证码模型类
