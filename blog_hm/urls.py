@@ -26,3 +26,9 @@ urlpatterns = [
     path('',include(('user.urls','user'),namespace='user')),
     path('',include(("blog.urls",'blog'),namespace="blog")),
 ]
+
+
+# # 设置图片获取的同一url ------------------------------------------------------- 在html中修改了图片的路径  这里就可以不用设置同一图片的url  但是面对企业或者大型项目有什么约束
+# from django.conf import settings
+# from django.conf.urls.static import static   # 其实这个写法我不怎么理解  先记住写法
+# urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

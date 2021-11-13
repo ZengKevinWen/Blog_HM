@@ -14,7 +14,6 @@ from user.models import User
 
 loggings = logging.getLogger("django")
 
-
 # 测试自定义中间件(仿写csrf_token)
 def test_middleware(request):
     return HttpResponse("测试csrf_token自定义中间件成功")
@@ -63,7 +62,7 @@ from django.contrib.auth import login  # 用户状态保持
 # 登录模型类
 class LoginView(View):
     def get(self,request):
-        return render(request,'login.html')
+        return render(request,'login.html',status=201)
     def post(self,request):
         mobile = request.POST.get("mobile")
         password = request.POST.get("password")
@@ -87,7 +86,16 @@ class LoginView(View):
             request.session.set_expiry(None)    # 关闭浏览器后记住session信息  None默认为2周  如果是通过logout退出就不一样了  全部删除
         else:
             request.session.set_expiry(0)  # 关闭浏览器不记住session信息
-        resp = redirect(reverse('blog:index'))
+        # 与center关联    -----------重点  按道理来说前端传来的是POST请求 在这里与LoginRequiredMixin类连用时，也传来了GET方法 next参数就在GET里面 注意
+        # 同时在request中还可以传递FILES类型 User用户对象 很历害 自己刚刚学习，多重复看之前的代码
+        next = request.POST
+        next2 = request.GET
+        ne = next.get("next")
+        ne2 = next2.get("next")
+        if ne2 == '/center/':
+            resp = redirect(reverse('user:center'))
+        else:
+            resp = redirect(reverse('blog:index'))
         # 设置cookies技术
         resp.set_cookie('is_login',True,max_age=3600)   # 时间为永久 max_age = ~~~
         resp.set_cookie('username',user.username,max_age=3600*1)
@@ -216,3 +224,38 @@ class SmscodeView(View):
         # 开始发送短信，在最上面 然后HTTP返回
         pass
 
+# 个人中心模型类
+from django.contrib.auth.mixins import LoginRequiredMixin  # 判断用户是否进行登录 如登录就可以查看center  没有就跳转到login 设置该方法的跳转路径
+class CenterView(LoginRequiredMixin,View):
+    def get(self,request):
+        user = request.user
+        print(user)
+        context = {
+            'user':user
+        }
+        return render(request,'center.html',context=context)
+
+    def post(self,request):
+        #获取参数   # 这里用了一个新的书写方式 注意 获取request中POST方法传值中的参数  和 获取FILES(传输文件都用这种获取如 文本 照片 )中 user(用户认证对象)
+        re = request.POST
+        username = re.get("username")
+        desc = re.get("desc")
+        avatar = request.FILES.get("avatar")
+        # phone = request.POST.get("phone") # 因为前端中  phone下使用到了disabled标签(表示客户端不可以修改里面的内容) ---所以导入value中的值没有改变  如果通过phone传值就为None 所以要通过user
+        user = request.user
+        if not username:
+            return HttpResponseBadRequest("用户名不能为空")
+        # 存入mysql
+        try:
+            user.username = username
+            user.avatar = avatar
+            user.user_desc = desc
+            user.save()
+        except DatabaseError as e:
+            loggings.error(e)
+            return HttpResponseBadRequest("修改信息失败")
+        # 修改cookie信息(按道理来说这里修改了用户的username 前面是设置了cookies但是这里修改了username时，并没有显示新的username而重新退出登录时，则显示更新后的username)
+        # 为什么了-----因为cookie是存储在前端中的 在设置cookies时从服务器拿数据变成了固定的值，之后就该cookies跟服务器没有关联，当修改服务器中的用户信息时，更cookie没有关系，所以想要重新修改cookies必须重新设置cookis
+        resp = redirect(reverse('user:center'))
+        resp.set_cookie('username',user.username)
+        return resp

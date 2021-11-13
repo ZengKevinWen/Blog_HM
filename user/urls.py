@@ -8,6 +8,7 @@ urlpatterns = [
     path('test_middleware/',test_middleware),
     path('imagecode/',ImagecodeView.as_view(),name='imagecode'),
     path('smscode/',SmscodeView.as_view(),name = 'smscode'),
+    path('center/', CenterView.as_view(), name='center'),
 ]
 
 

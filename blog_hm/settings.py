@@ -134,6 +134,15 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static')
 ]
 
+# 设置上传图片的存储位置
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/media/')
+
+# 设置访问图片的统一路由   最后到总url中配置图片路由
+# MEDIA_URL = '/media/'
+
+# LoginRequiredMixin类的 跳转地址
+LOGIN_URL = '/login/' # 首页
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
