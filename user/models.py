@@ -12,6 +12,9 @@ class User(AbstractUser):
     # 修改User中用户认证的字段 username --> mobile
     USERNAME_FIELD = 'mobile'
 
+    # 创建超级管理员的需要必须输入的字段 ----------------------------------先记住怎么写
+    REQUIRED_FIELDS = ['username', 'email']
+
     class Meta:
         db_table = 'db_user'
         verbose_name = '用户信息'

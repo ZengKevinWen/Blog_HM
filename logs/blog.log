@@ -1350,3 +1350,475 @@ INFO 2021-11-13 14:05:12,856 basehttp 161 "GET /login/?next=/center/ HTTP/1.1" 2
 INFO 2021-11-13 14:05:21,391 basehttp 161 "POST /login/?next=/center/ HTTP/1.1" 302 0
 INFO 2021-11-13 14:05:21,416 basehttp 161 "GET /center/ HTTP/1.1" 200 4263
 INFO 2021-11-13 14:05:21,469 basehttp 161 "GET /static/media/avatar/20211113/diannao_FkWl3Ow.jpg HTTP/1.1" 304 0
+INFO 2021-11-14 11:26:59,859 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 11:27:27,105 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-14 11:27:29,383 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-14 11:27:31,170 log 224 Not Found: /
+WARNING 2021-11-14 11:27:31,176 basehttp 161 "GET / HTTP/1.1" 404 3767
+WARNING 2021-11-14 11:27:31,511 log 224 Not Found: /favicon.ico
+WARNING 2021-11-14 11:27:31,514 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3818
+WARNING 2021-11-14 11:27:34,686 log 224 Not Found: /writerblog/
+WARNING 2021-11-14 11:27:34,687 basehttp 161 "GET /writerblog/ HTTP/1.1" 404 3818
+WARNING 2021-11-14 11:27:40,627 log 224 Not Found: /writer
+WARNING 2021-11-14 11:27:40,629 basehttp 161 "GET /writer HTTP/1.1" 404 3803
+INFO 2021-11-14 11:27:47,158 basehttp 161 "GET /write HTTP/1.1" 301 0
+ERROR 2021-11-14 11:27:47,420 log 224 Internal Server Error: /write/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\blog\views.py", line 14, in get
+    return render(request,'write_blog.html')
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'write' not found. 'write' is not a valid view function or pattern name.
+ERROR 2021-11-14 11:27:47,425 basehttp 161 "GET /write/ HTTP/1.1" 500 132198
+INFO 2021-11-14 11:28:01,996 basehttp 161 "GET /write/ HTTP/1.1" 200 5625
+WARNING 2021-11-14 11:28:02,284 basehttp 161 "GET /static/ckeditor/ckeditorconfig.js?t=I3I8 HTTP/1.1" 404 1844
+WARNING 2021-11-14 11:28:02,305 basehttp 161 "GET /static/ckeditor/ckeditorskins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 1898
+WARNING 2021-11-14 11:28:02,308 basehttp 161 "GET /static/ckeditor/ckeditorlang/zh-cn.js?t=I3I8 HTTP/1.1" 404 1856
+INFO 2021-11-14 11:29:42,394 basehttp 161 "GET /write/ HTTP/1.1" 200 5626
+INFO 2021-11-14 11:29:48,636 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/close.png HTTP/1.1" 200 615
+INFO 2021-11-14 11:47:35,229 basehttp 161 "GET /index/ HTTP/1.1" 200 11879
+INFO 2021-11-14 11:47:50,919 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-14 11:47:50,927 basehttp 161 "GET /login/ HTTP/1.1" 201 3198
+ERROR 2021-11-14 11:48:06,608 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\cache.py", line 31, in _decorator
+    return method(self, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\cache.py", line 137, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\client\default.py", line 650, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\user\views.py", line 83, in post
+    login(request,user)  # 在实现状态保持时，会实现session相关的技术--------------------也不是很明白
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\auth\__init__.py", line 111, in login
+    request.session.cycle_key()
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\base.py", line 344, in cycle_key
+    self.create()
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\base.py", line 196, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\cache\backends\base.py", line 212, in __contains__
+    return self.has_key(key)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\cache.py", line 38, in _decorator
+    raise e.__cause__
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\client\default.py", line 648, in has_key
+    return client.exists(key) == 1
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-11-14 11:48:06,622 basehttp 161 "POST /login/ HTTP/1.1" 500 143489
+INFO 2021-11-14 11:48:18,470 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 11:48:19,034 basehttp 161 "GET /login/ HTTP/1.1" 201 3198
+ERROR 2021-11-14 11:48:27,672 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\cache.py", line 31, in _decorator
+    return method(self, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\cache.py", line 137, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\client\default.py", line 650, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\user\views.py", line 83, in post
+    login(request,user)  # 在实现状态保持时，会实现session相关的技术--------------------也不是很明白
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\auth\__init__.py", line 111, in login
+    request.session.cycle_key()
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\base.py", line 344, in cycle_key
+    self.create()
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\base.py", line 196, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\cache\backends\base.py", line 212, in __contains__
+    return self.has_key(key)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\cache.py", line 38, in _decorator
+    raise e.__cause__
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\client\default.py", line 648, in has_key
+    return client.exists(key) == 1
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-11-14 11:48:27,679 basehttp 161 "POST /login/ HTTP/1.1" 500 143489
+INFO 2021-11-14 11:48:50,788 basehttp 161 "GET /login/ HTTP/1.1" 201 3198
+INFO 2021-11-14 11:48:54,361 basehttp 161 "GET /foget_password/ HTTP/1.1" 200 5315
+ERROR 2021-11-14 11:48:56,606 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\user\views.py", line 176, in get
+    redis_conn.setex('img:%s'%uuid,300,text)
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-11-14 11:48:56,609 basehttp 161 "GET /imagecode/?uuid=e265a652-513f-456c-b56d-293ada418610 HTTP/1.1" 500 115791
+INFO 2021-11-14 11:48:57,573 basehttp 161 "GET /login/ HTTP/1.1" 201 3198
+ERROR 2021-11-14 11:49:07,458 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\cache.py", line 31, in _decorator
+    return method(self, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\cache.py", line 137, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\client\default.py", line 650, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\user\views.py", line 83, in post
+    login(request,user)  # 在实现状态保持时，会实现session相关的技术--------------------也不是很明白
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\auth\__init__.py", line 111, in login
+    request.session.cycle_key()
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\base.py", line 344, in cycle_key
+    self.create()
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\base.py", line 196, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\cache\backends\base.py", line 212, in __contains__
+    return self.has_key(key)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\cache.py", line 38, in _decorator
+    raise e.__cause__
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\client\default.py", line 648, in has_key
+    return client.exists(key) == 1
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-11-14 11:49:07,463 basehttp 161 "POST /login/ HTTP/1.1" 500 143489
+WARNING 2021-11-14 11:49:12,470 log 224 Bad Request: /login/
+WARNING 2021-11-14 11:49:12,470 basehttp 161 "POST /login/ HTTP/1.1" 400 27
+ERROR 2021-11-14 11:49:19,962 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\cache.py", line 31, in _decorator
+    return method(self, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\cache.py", line 137, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\client\default.py", line 650, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\user\views.py", line 83, in post
+    login(request,user)  # 在实现状态保持时，会实现session相关的技术--------------------也不是很明白
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\auth\__init__.py", line 111, in login
+    request.session.cycle_key()
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\base.py", line 344, in cycle_key
+    self.create()
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\base.py", line 196, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\cache\backends\base.py", line 212, in __contains__
+    return self.has_key(key)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\cache.py", line 38, in _decorator
+    raise e.__cause__
+  File "E:\Anaconda\Anaconda\lib\site-packages\django_redis\client\default.py", line 648, in has_key
+    return client.exists(key) == 1
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "E:\Anaconda\Anaconda\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-11-14 11:49:19,966 basehttp 161 "POST /login/ HTTP/1.1" 500 143489
+INFO 2021-11-14 11:50:08,728 basehttp 161 "GET /login/ HTTP/1.1" 201 3198
+INFO 2021-11-14 11:50:15,482 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-14 11:50:15,487 basehttp 161 "GET /index/ HTTP/1.1" 200 11879
+WARNING 2021-11-14 11:50:19,364 log 224 Not Found: /index/index.html
+WARNING 2021-11-14 11:50:19,364 basehttp 161 "GET /index/index.html HTTP/1.1" 404 3833
+WARNING 2021-11-14 11:50:30,739 log 224 Not Found: /index/write_blog.html
+WARNING 2021-11-14 11:50:30,739 basehttp 161 "GET /index/write_blog.html HTTP/1.1" 404 3848
+INFO 2021-11-14 11:50:35,011 basehttp 161 "GET /center/ HTTP/1.1" 200 4253
+INFO 2021-11-14 11:50:35,050 basehttp 161 "GET /static/media/avatar/20211113/diannao_FkWl3Ow.jpg HTTP/1.1" 304 0
+INFO 2021-11-14 11:51:27,983 basehttp 161 "GET /index/ HTTP/1.1" 200 11867
+INFO 2021-11-14 11:51:29,282 basehttp 161 "GET /index/ HTTP/1.1" 200 11867
+WARNING 2021-11-14 11:52:19,154 log 224 Not Found: /index/write_blog.html
+WARNING 2021-11-14 11:52:19,155 basehttp 161 "GET /index/write_blog.html HTTP/1.1" 404 3848
+INFO 2021-11-14 11:52:32,730 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 11:52:33,454 basehttp 161 "GET /index/ HTTP/1.1" 200 11859
+INFO 2021-11-14 11:52:35,496 basehttp 161 "GET /write/ HTTP/1.1" 200 5626
+INFO 2021-11-14 11:52:53,363 basehttp 161 "GET /center/ HTTP/1.1" 200 4253
+WARNING 2021-11-14 11:52:57,021 log 224 Not Found: /center/write_blog.html
+WARNING 2021-11-14 11:52:57,022 basehttp 161 "GET /center/write_blog.html HTTP/1.1" 404 3851
+INFO 2021-11-14 11:53:16,044 basehttp 161 "GET /index/ HTTP/1.1" 200 11859
+INFO 2021-11-14 11:56:26,487 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\models.py changed, reloading.
+INFO 2021-11-14 11:56:28,369 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 13:25:05,760 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 13:25:16,997 basehttp 161 "GET /index/ HTTP/1.1" 200 11859
+INFO 2021-11-14 13:25:18,093 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-11-14 13:25:18,281 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2365
+INFO 2021-11-14 13:25:18,317 basehttp 161 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-11-14 13:25:18,317 basehttp 161 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2021-11-14 13:25:18,318 basehttp 161 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-11-14 13:25:18,318 basehttp 161 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2021-11-14 13:25:18,323 basehttp 161 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2021-11-14 13:25:19,410 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-11-14 13:25:19,446 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2365
+INFO 2021-11-14 13:25:19,506 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-11-14 13:25:19,557 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-11-14 13:25:19,563 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-11-14 13:25:19,564 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-11-14 13:25:31,694 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2499
+INFO 2021-11-14 13:29:42,226 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 13:29:57,450 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-11-14 13:29:57,623 basehttp 161 "GET /admin/ HTTP/1.1" 200 2892
+INFO 2021-11-14 13:29:57,669 basehttp 161 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2021-11-14 13:29:57,682 basehttp 161 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2021-11-14 13:29:57,682 basehttp 161 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:32,123 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\admin.py changed, reloading.
+INFO 2021-11-14 13:31:34,010 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 13:31:35,785 basehttp 161 "GET /admin/ HTTP/1.1" 200 4198
+INFO 2021-11-14 13:31:38,572 basehttp 161 "GET /admin/blog/blogcategory/ HTTP/1.1" 200 5205
+INFO 2021-11-14 13:31:38,612 basehttp 161 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:38,619 basehttp 161 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:38,628 basehttp 161 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:38,629 basehttp 161 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:38,635 basehttp 161 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:38,642 basehttp 161 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:38,642 basehttp 161 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:38,642 basehttp 161 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:38,642 basehttp 161 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:38,649 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-14 13:31:38,678 basehttp 161 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:40,495 basehttp 161 "GET /admin/blog/blogcategory/add/ HTTP/1.1" 200 6910
+INFO 2021-11-14 13:31:40,540 basehttp 161 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:40,561 basehttp 161 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:40,571 basehttp 161 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:40,572 basehttp 161 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:40,573 basehttp 161 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:40,583 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-14 13:31:40,586 basehttp 161 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:40,655 basehttp 161 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:40,655 basehttp 161 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:47,719 basehttp 161 "POST /admin/blog/blogcategory/add/ HTTP/1.1" 302 0
+INFO 2021-11-14 13:31:47,759 basehttp 161 "GET /admin/blog/blogcategory/add/ HTTP/1.1" 200 7157
+INFO 2021-11-14 13:31:47,811 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-14 13:31:47,827 basehttp 161 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2021-11-14 13:31:52,210 basehttp 161 "POST /admin/blog/blogcategory/add/ HTTP/1.1" 302 0
+INFO 2021-11-14 13:31:52,276 basehttp 161 "GET /admin/blog/blogcategory/add/ HTTP/1.1" 200 7155
+INFO 2021-11-14 13:31:52,336 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-14 13:31:58,992 basehttp 161 "POST /admin/blog/blogcategory/add/ HTTP/1.1" 302 0
+INFO 2021-11-14 13:31:59,033 basehttp 161 "GET /admin/blog/blogcategory/add/ HTTP/1.1" 200 7154
+INFO 2021-11-14 13:31:59,097 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-14 13:32:07,259 basehttp 161 "POST /admin/blog/blogcategory/add/ HTTP/1.1" 302 0
+INFO 2021-11-14 13:32:07,319 basehttp 161 "GET /admin/blog/blogcategory/add/ HTTP/1.1" 200 7163
+INFO 2021-11-14 13:32:07,377 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-14 13:32:12,251 basehttp 161 "POST /admin/blog/blogcategory/add/ HTTP/1.1" 302 0
+INFO 2021-11-14 13:32:12,291 basehttp 161 "GET /admin/blog/blogcategory/5/change/ HTTP/1.1" 200 7374
+INFO 2021-11-14 13:32:12,340 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-14 13:32:14,462 basehttp 161 "POST /admin/blog/blogcategory/5/change/ HTTP/1.1" 302 0
+INFO 2021-11-14 13:32:14,510 basehttp 161 "GET /admin/blog/blogcategory/ HTTP/1.1" 200 7410
+INFO 2021-11-14 13:32:14,568 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-14 13:32:16,277 basehttp 161 "GET /admin/user/user/ HTTP/1.1" 200 6768
+INFO 2021-11-14 13:32:16,337 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-14 13:32:18,088 basehttp 161 "GET /admin/user/user/6/change/ HTTP/1.1" 200 16781
+INFO 2021-11-14 13:32:18,139 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-14 13:32:23,043 basehttp 161 "GET /admin/blog/blogcategory/ HTTP/1.1" 200 7213
+INFO 2021-11-14 13:32:23,092 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-14 13:32:29,121 basehttp 161 "GET /center/ HTTP/1.1" 200 4216
+WARNING 2021-11-14 13:32:29,173 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-14 13:32:29,951 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-14 13:32:39,295 basehttp 161 "GET /login/ HTTP/1.1" 201 3198
+INFO 2021-11-14 13:32:46,036 basehttp 161 "GET /center/ HTTP/1.1" 200 4216
+WARNING 2021-11-14 13:32:46,087 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-14 13:32:58,731 basehttp 161 "GET /index/ HTTP/1.1" 200 11859
+INFO 2021-11-14 13:34:31,327 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\models.py changed, reloading.
+INFO 2021-11-14 13:34:33,156 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 13:43:47,221 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\models.py changed, reloading.
+INFO 2021-11-14 13:43:49,226 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 13:45:31,491 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 13:45:35,568 basehttp 161 "GET /index/ HTTP/1.1" 200 11859
+INFO 2021-11-14 13:45:36,669 basehttp 161 "GET /admin/ HTTP/1.1" 200 5999
+INFO 2021-11-14 13:45:37,191 basehttp 161 "GET /admin/ HTTP/1.1" 200 5999
+INFO 2021-11-14 13:45:53,171 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\admin.py changed, reloading.
+INFO 2021-11-14 13:45:54,965 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 13:45:55,526 basehttp 161 "GET /admin/ HTTP/1.1" 200 6413
+INFO 2021-11-14 13:45:57,386 basehttp 161 "GET /admin/blog/blog/ HTTP/1.1" 200 5477
+INFO 2021-11-14 13:45:57,451 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-14 13:45:58,917 basehttp 161 "GET /admin/blog/blogcategory/ HTTP/1.1" 200 7501
+INFO 2021-11-14 13:45:58,969 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-14 13:46:03,530 basehttp 161 "GET /admin/blog/blogcategory/5/change/ HTTP/1.1" 200 7430
+INFO 2021-11-14 13:46:03,584 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-14 13:46:05,092 basehttp 161 "GET /admin/blog/blogcategory/ HTTP/1.1" 200 7501
+INFO 2021-11-14 13:47:47,959 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-14 13:47:53,183 log 224 Not Found: /
+WARNING 2021-11-14 13:47:53,183 basehttp 161 "GET / HTTP/1.1" 404 3767
+INFO 2021-11-14 13:48:04,048 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-14 13:48:04,055 basehttp 161 "GET /login/ HTTP/1.1" 201 3198
+INFO 2021-11-14 13:48:10,197 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-14 13:48:10,203 basehttp 161 "GET /index/ HTTP/1.1" 200 11859
+INFO 2021-11-14 13:48:13,224 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-14 13:48:13,231 basehttp 161 "GET /login/ HTTP/1.1" 201 3198
+WARNING 2021-11-14 13:48:14,840 log 224 Not Found: /login/index.html
+WARNING 2021-11-14 13:48:14,840 basehttp 161 "GET /login/index.html HTTP/1.1" 404 3833
+INFO 2021-11-14 13:48:23,108 basehttp 161 "GET /center/ HTTP/1.1" 302 0
+INFO 2021-11-14 13:48:23,114 basehttp 161 "GET /login/?next=/center/ HTTP/1.1" 201 3198
+INFO 2021-11-14 13:48:30,380 basehttp 161 "POST /login/?next=/center/ HTTP/1.1" 302 0
+INFO 2021-11-14 13:48:30,391 basehttp 161 "GET /center/ HTTP/1.1" 200 4253
+INFO 2021-11-14 13:48:34,037 basehttp 161 "GET /index/ HTTP/1.1" 200 11859
+INFO 2021-11-14 13:54:41,295 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-14 13:54:43,256 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 13:56:02,263 basehttp 161 "GET /index/ HTTP/1.1" 200 11885
+INFO 2021-11-14 13:56:12,198 basehttp 161 "GET /index/ HTTP/1.1" 200 11919
+INFO 2021-11-14 13:56:22,801 basehttp 161 "GET /index/ HTTP/1.1" 200 11919
+INFO 2021-11-14 13:56:27,152 basehttp 161 "GET /center/ HTTP/1.1" 200 4253
+INFO 2021-11-14 13:56:28,185 basehttp 161 "GET /index/ HTTP/1.1" 200 11919
+INFO 2021-11-14 13:56:37,573 basehttp 161 "GET /index/ HTTP/1.1" 200 11915
+INFO 2021-11-14 13:58:51,609 basehttp 161 "GET /index/ HTTP/1.1" 200 12180
+INFO 2021-11-14 14:00:34,023 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\models.py changed, reloading.
+INFO 2021-11-14 14:06:19,107 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 14:06:22,656 basehttp 161 "GET /index/ HTTP/1.1" 200 12180
+INFO 2021-11-14 14:06:25,329 basehttp 161 "GET /write/ HTTP/1.1" 200 5805
+INFO 2021-11-14 14:08:57,418 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-14 14:08:59,108 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 14:08:59,592 basehttp 161 "GET /write/ HTTP/1.1" 200 5805
+INFO 2021-11-14 14:14:25,651 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-14 14:14:27,474 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 14:26:38,423 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-14 14:26:40,204 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 14:26:56,733 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 14:27:02,793 basehttp 161 "GET /write/ HTTP/1.1" 200 5805
+WARNING 2021-11-14 14:27:53,961 log 224 Forbidden (CSRF token missing or incorrect.): /write/
+WARNING 2021-11-14 14:27:53,962 basehttp 161 "POST /write/ HTTP/1.1" 403 2514
+INFO 2021-11-14 14:28:15,315 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-14 14:28:28,258 log 224 Forbidden (CSRF token missing or incorrect.): /write/
+WARNING 2021-11-14 14:28:28,259 basehttp 161 "POST /write/ HTTP/1.1" 403 2514
+INFO 2021-11-14 14:28:31,452 basehttp 161 "GET /write/ HTTP/1.1" 200 5939
+ERROR 2021-11-14 14:29:59,414 views 56 (1048, "Column 'user_id' cannot be null")
+WARNING 2021-11-14 14:29:59,417 log 224 Bad Request: /write/
+WARNING 2021-11-14 14:29:59,418 basehttp 161 "POST /write/ HTTP/1.1" 400 18
+INFO 2021-11-14 14:30:59,325 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-11-14 14:32:54,112 views 59 Cannot assign "4": "Blog.user" must be a "User" instance.
+WARNING 2021-11-14 14:32:54,116 log 224 Bad Request: /write/
+WARNING 2021-11-14 14:32:54,117 basehttp 161 "POST /write/ HTTP/1.1" 400 18
+INFO 2021-11-14 14:33:04,206 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-14 14:33:07,900 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 14:33:23,444 basehttp 161 "POST /write/ HTTP/1.1" 302 0
+INFO 2021-11-14 14:33:23,482 basehttp 161 "GET /index/ HTTP/1.1" 200 12180
+INFO 2021-11-14 14:34:01,866 basehttp 161 "GET /write/ HTTP/1.1" 200 5939
+INFO 2021-11-14 14:34:42,398 basehttp 161 "POST /write/ HTTP/1.1" 302 0
+INFO 2021-11-14 14:34:42,409 basehttp 161 "GET /index/ HTTP/1.1" 200 12180
+INFO 2021-11-14 14:36:25,134 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\models.py changed, reloading.
+INFO 2021-11-14 14:36:28,711 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 14:37:18,033 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\models.py changed, reloading.
+INFO 2021-11-14 14:37:21,611 autoreload 637 Watching for file changes with StatReloader
