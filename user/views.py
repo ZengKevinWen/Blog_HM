@@ -94,6 +94,10 @@ class LoginView(View):
         ne2 = next2.get("next")
         if ne2 == '/center/':
             resp = redirect(reverse('user:center'))
+        elif ne2 == '/write/':
+            resp = redirect(reverse('blog:write'))
+        elif ne2 == '/index/':
+            resp = redirect(reverse('blog:index'))
         else:
             resp = redirect(reverse('blog:index'))
         # 设置cookies技术

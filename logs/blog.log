@@ -1822,3 +1822,405 @@ INFO 2021-11-14 14:36:25,134 autoreload 251 C:\Users\Administrator\Desktop\blog_
 INFO 2021-11-14 14:36:28,711 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-11-14 14:37:18,033 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\models.py changed, reloading.
 INFO 2021-11-14 14:37:21,611 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 14:40:48,070 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-14 14:40:54,382 basehttp 161 "GET /index/ HTTP/1.1" 200 12180
+INFO 2021-11-14 14:40:57,448 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-14 14:40:57,453 basehttp 161 "GET /login/ HTTP/1.1" 201 3198
+WARNING 2021-11-14 14:40:59,044 log 224 Not Found: /login/index.html
+WARNING 2021-11-14 14:40:59,047 basehttp 161 "GET /login/index.html HTTP/1.1" 404 3833
+WARNING 2021-11-14 14:41:04,416 log 224 Not Found: /writerblog/
+WARNING 2021-11-14 14:41:04,416 basehttp 161 "GET /writerblog/ HTTP/1.1" 404 3818
+WARNING 2021-11-14 14:41:08,912 log 224 Not Found: /writer
+WARNING 2021-11-14 14:41:08,913 basehttp 161 "GET /writer HTTP/1.1" 404 3803
+INFO 2021-11-14 14:41:15,943 basehttp 161 "GET /write/ HTTP/1.1" 302 0
+INFO 2021-11-14 14:41:15,949 basehttp 161 "GET /login/?next=/write/ HTTP/1.1" 201 3198
+INFO 2021-11-14 14:42:32,369 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-14 14:42:34,058 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-14 14:42:38,869 log 224 Not Found: /writerblog/
+WARNING 2021-11-14 14:42:38,869 basehttp 161 "GET /writerblog/ HTTP/1.1" 404 3818
+INFO 2021-11-14 14:42:40,006 basehttp 161 "GET /write/ HTTP/1.1" 302 0
+INFO 2021-11-14 14:42:40,017 basehttp 161 "GET /login/?next=/write/ HTTP/1.1" 201 3198
+INFO 2021-11-14 14:42:47,433 basehttp 161 "POST /login/?next=/write/ HTTP/1.1" 302 0
+INFO 2021-11-14 14:42:47,447 basehttp 161 "GET /write/ HTTP/1.1" 200 5939
+INFO 2021-11-14 14:42:50,235 basehttp 161 "GET /write/ HTTP/1.1" 200 5939
+INFO 2021-11-14 14:42:51,189 basehttp 161 "GET /center/ HTTP/1.1" 200 4253
+INFO 2021-11-14 14:42:51,222 basehttp 161 "GET /static/media/avatar/20211113/diannao_FkWl3Ow.jpg HTTP/1.1" 304 0
+INFO 2021-11-15 09:36:20,820 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-15 09:36:33,443 log 224 Not Found: /
+WARNING 2021-11-15 09:36:33,444 basehttp 161 "GET / HTTP/1.1" 404 3767
+WARNING 2021-11-15 09:36:34,104 log 224 Not Found: /favicon.ico
+WARNING 2021-11-15 09:36:34,104 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3818
+INFO 2021-11-15 09:37:21,391 basehttp 161 "GET /index/ HTTP/1.1" 200 12180
+INFO 2021-11-15 09:37:30,718 basehttp 161 "GET /index/ HTTP/1.1" 200 12180
+INFO 2021-11-15 09:37:35,317 basehttp 161 "GET /index/ HTTP/1.1" 200 12180
+WARNING 2021-11-15 09:37:45,996 log 224 Not Found: /index/detail.html
+WARNING 2021-11-15 09:37:45,997 basehttp 161 "GET /index/detail.html HTTP/1.1" 404 3836
+INFO 2021-11-15 09:41:16,179 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\user\views.py changed, reloading.
+INFO 2021-11-15 09:41:19,234 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-15 09:41:21,746 log 224 Not Found: /
+WARNING 2021-11-15 09:41:21,747 basehttp 161 "GET / HTTP/1.1" 404 3767
+WARNING 2021-11-15 09:41:22,450 log 224 Not Found: /favicon.ico
+WARNING 2021-11-15 09:41:22,452 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3818
+INFO 2021-11-15 09:41:24,615 basehttp 161 "GET /index/ HTTP/1.1" 302 0
+INFO 2021-11-15 09:41:24,631 basehttp 161 "GET /login/?next=/index/ HTTP/1.1" 201 3198
+INFO 2021-11-15 09:41:37,273 basehttp 161 "POST /login/?next=/index/ HTTP/1.1" 302 0
+INFO 2021-11-15 09:41:37,292 basehttp 161 "GET /index/ HTTP/1.1" 200 12180
+INFO 2021-11-15 09:42:48,333 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-11-15 09:42:48,508 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2365
+INFO 2021-11-15 09:42:49,138 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-11-15 09:42:49,175 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2365
+INFO 2021-11-15 09:42:59,792 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-11-15 09:42:59,819 basehttp 161 "GET /admin/ HTTP/1.1" 200 6413
+INFO 2021-11-15 09:43:01,544 basehttp 161 "GET /admin/blog/blog/ HTTP/1.1" 200 5477
+INFO 2021-11-15 09:43:01,603 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-15 09:43:03,119 basehttp 161 "GET /admin/blog/blog/add/ HTTP/1.1" 200 12615
+INFO 2021-11-15 09:43:03,160 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-15 09:44:22,640 basehttp 161 "POST /admin/blog/blog/add/ HTTP/1.1" 302 0
+INFO 2021-11-15 09:44:22,688 basehttp 161 "GET /admin/blog/blog/ HTTP/1.1" 200 6839
+INFO 2021-11-15 09:44:22,754 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-11-15 09:44:36,888 basehttp 161 "GET /index/ HTTP/1.1" 200 12180
+INFO 2021-11-15 09:51:36,834 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 09:51:45,202 basehttp 161 "GET /index/ HTTP/1.1" 200 11915
+WARNING 2021-11-15 09:51:45,272 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 09:51:45,317 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 09:52:54,811 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 09:52:54,821 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 09:59:34,678 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 09:59:50,257 basehttp 161 "GET /index/ HTTP/1.1" 200 5843
+WARNING 2021-11-15 09:59:50,327 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 09:59:50,369 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 09:59:50,383 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-15 09:59:50,414 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 10:00:16,354 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:00:16,359 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 10:01:30,602 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 10:01:34,361 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 10:01:41,948 basehttp 161 "GET /index/ HTTP/1.1" 200 5922
+INFO 2021-11-15 10:01:42,057 basehttp 161 "GET /static/media/blog_title/20211115/diannao.jpg HTTP/1.1" 200 348513
+WARNING 2021-11-15 10:01:42,060 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:01:42,139 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 10:01:59,451 basehttp 161 "GET /write/ HTTP/1.1" 200 5939
+INFO 2021-11-15 10:04:13,836 basehttp 161 "GET /write/ HTTP/1.1" 200 6022
+INFO 2021-11-15 10:04:57,742 basehttp 161 "POST /write/ HTTP/1.1" 302 0
+INFO 2021-11-15 10:05:07,321 basehttp 161 "GET /index/ HTTP/1.1" 200 7529
+INFO 2021-11-15 10:05:07,381 basehttp 161 "GET /static/media/blog_title/20211115/diannao.jpg HTTP/1.1" 304 0
+WARNING 2021-11-15 10:05:07,383 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 10:05:30,618 basehttp 161 "GET /index/ HTTP/1.1" 200 7529
+WARNING 2021-11-15 10:05:30,675 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 10:06:12,799 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 10:06:16,384 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 10:08:46,032 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 10:08:55,811 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 10:09:04,733 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 10:09:06,426 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 10:09:07,609 basehttp 161 "GET /index/ HTTP/1.1" 200 7481
+WARNING 2021-11-15 10:09:07,662 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 10:09:07,671 basehttp 161 "GET /static/media/blog_title/20211115/diannao.jpg HTTP/1.1" 304 0
+WARNING 2021-11-15 10:09:07,699 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:09:07,718 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-15 10:09:07,739 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 10:10:53,948 basehttp 161 "GET /index/ HTTP/1.1" 200 7530
+WARNING 2021-11-15 10:10:54,022 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 10:10:54,047 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:10:54,069 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-15 10:10:54,089 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 10:24:32,150 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 10:24:34,140 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 10:37:44,341 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 10:37:46,031 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 10:37:53,839 basehttp 161 "GET /index/ HTTP/1.1" 200 4720
+WARNING 2021-11-15 10:37:53,936 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:37:53,954 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 10:39:31,100 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 10:39:33,034 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 10:40:32,489 basehttp 161 "GET /index/ HTTP/1.1" 200 7608
+INFO 2021-11-15 10:40:32,556 basehttp 161 "GET /static/media/blog_title/20211115/diannao.jpg HTTP/1.1" 304 0
+WARNING 2021-11-15 10:40:32,559 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 10:40:32,578 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:40:32,605 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-15 10:40:32,625 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 10:40:42,640 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 10:40:44,370 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 10:40:44,857 basehttp 161 "GET /index/ HTTP/1.1" 200 6162
+WARNING 2021-11-15 10:40:44,932 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 10:40:44,977 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2021-11-15 10:40:44,995 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 10:40:45,076 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 10:55:39,848 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 10:55:41,815 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 10:56:35,032 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 10:56:36,701 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 10:59:27,044 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 4720
+WARNING 2021-11-15 10:59:27,211 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:59:27,231 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 10:59:28,602 basehttp 161 "GET /index/?Category_id=2 HTTP/1.1" 200 4720
+WARNING 2021-11-15 10:59:28,758 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:59:28,779 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 10:59:29,461 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 6162
+WARNING 2021-11-15 10:59:29,576 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 10:59:29,606 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:59:29,640 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-15 10:59:29,678 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 10:59:30,140 basehttp 161 "GET /index/?Category_id=2 HTTP/1.1" 200 4720
+WARNING 2021-11-15 10:59:30,286 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:59:30,327 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 10:59:30,908 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 6162
+WARNING 2021-11-15 10:59:31,024 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 10:59:31,050 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:59:31,074 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-15 10:59:31,107 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 10:59:35,010 basehttp 161 "GET /index/?Category_id=3 HTTP/1.1" 200 6166
+INFO 2021-11-15 10:59:35,109 basehttp 161 "GET /static/media/blog_title/20211115/diannao.jpg HTTP/1.1" 304 0
+WARNING 2021-11-15 10:59:35,144 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:59:35,183 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 10:59:36,780 basehttp 161 "GET /index/?Category_id=2 HTTP/1.1" 200 4720
+WARNING 2021-11-15 10:59:36,920 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:59:36,944 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 10:59:37,486 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 4720
+WARNING 2021-11-15 10:59:37,623 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:59:37,648 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 10:59:38,049 basehttp 161 "GET /index/?Category_id=5 HTTP/1.1" 200 4720
+WARNING 2021-11-15 10:59:38,175 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:59:38,241 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 10:59:38,566 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 4720
+WARNING 2021-11-15 10:59:38,732 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:59:38,765 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 10:59:39,748 basehttp 161 "GET /index/?Category_id=2 HTTP/1.1" 200 4720
+WARNING 2021-11-15 10:59:39,881 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:59:39,904 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 10:59:40,082 basehttp 161 "GET /index/?Category_id=3 HTTP/1.1" 200 6166
+WARNING 2021-11-15 10:59:40,207 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 10:59:40,222 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 11:00:07,696 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 6162
+WARNING 2021-11-15 11:00:07,769 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 11:00:07,809 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 11:00:07,839 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-15 11:00:07,886 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:00:41,356 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 11:00:43,681 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 11:00:44,188 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 6162
+WARNING 2021-11-15 11:00:44,275 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 11:00:44,358 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2021-11-15 11:00:44,391 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:00:44,414 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 11:00:59,677 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 6162
+WARNING 2021-11-15 11:00:59,757 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 11:00:59,822 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 11:00:59,840 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-15 11:00:59,880 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:01:18,552 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 11:01:20,729 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 11:01:21,266 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 6162
+WARNING 2021-11-15 11:01:21,355 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 11:01:21,420 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2021-11-15 11:01:21,485 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:01:21,490 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 11:01:25,404 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 4720
+WARNING 2021-11-15 11:01:25,548 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 11:01:25,566 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 11:02:31,519 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 4720
+WARNING 2021-11-15 11:02:31,649 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 11:02:31,673 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 11:02:32,545 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 4720
+WARNING 2021-11-15 11:02:32,648 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 11:02:32,672 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 11:02:51,788 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 4720
+WARNING 2021-11-15 11:02:51,901 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 11:02:51,920 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 11:02:52,937 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 4720
+WARNING 2021-11-15 11:02:53,056 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-15 11:02:53,067 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-15 11:02:57,955 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 4720
+INFO 2021-11-15 11:03:22,449 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 4727
+INFO 2021-11-15 11:03:25,051 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 4727
+INFO 2021-11-15 11:03:26,231 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 6169
+WARNING 2021-11-15 11:03:26,293 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 11:03:26,349 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:03:27,578 basehttp 161 "GET /index/ HTTP/1.1" 200 7615
+WARNING 2021-11-15 11:03:27,618 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:03:29,887 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 4727
+INFO 2021-11-15 11:04:01,759 basehttp 161 "GET /index/?Category_id=5 HTTP/1.1" 200 4727
+INFO 2021-11-15 11:04:03,379 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 4727
+INFO 2021-11-15 11:04:45,809 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 11:04:48,494 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 11:05:08,487 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 11:05:10,523 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 11:05:10,992 basehttp 161 "GET /index/ HTTP/1.1" 200 7615
+WARNING 2021-11-15 11:05:11,072 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:05:12,893 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 6169
+WARNING 2021-11-15 11:05:12,947 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 11:05:13,002 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:05:14,230 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6173
+INFO 2021-11-15 11:08:17,737 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 11:08:20,550 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 11:14:18,816 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 11:14:21,275 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 11:24:16,311 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 11:24:18,825 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 11:24:19,315 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6448
+INFO 2021-11-15 11:24:19,396 basehttp 161 "GET /static/media/blog_title/20211115/diannao.jpg HTTP/1.1" 304 0
+INFO 2021-11-15 11:24:21,146 basehttp 161 "GET /index/?Category_id=3 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:24:22,480 basehttp 161 "GET /index/?Category_id=3 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:24:23,510 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:24:25,669 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6448
+INFO 2021-11-15 11:24:27,647 basehttp 161 "GET /index/?Category_id=5 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:24:28,483 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 6444
+WARNING 2021-11-15 11:24:28,545 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:24:30,684 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6448
+INFO 2021-11-15 11:24:32,016 basehttp 161 "GET /index/?Category_id=3 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:25:43,977 basehttp 161 "GET /index/?Category_id=3 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:25:45,762 basehttp 161 "GET /index/?Category_id=3 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:25:46,630 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:25:47,054 basehttp 161 "GET /index/?Category_id=2 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:25:47,614 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6448
+INFO 2021-11-15 11:25:49,042 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 6444
+WARNING 2021-11-15 11:25:49,096 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 11:25:49,148 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:26:24,362 basehttp 161 "GET /index/?Category_id=5 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:28:02,765 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:28:03,779 basehttp 161 "GET /index/?Category_id=3 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:28:04,335 basehttp 161 "GET /index/?Category_id=2 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:28:04,668 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6448
+INFO 2021-11-15 11:28:05,133 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:28:05,935 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 6444
+WARNING 2021-11-15 11:28:05,981 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 11:28:06,030 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:28:31,254 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 11:29:12,913 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 6444
+WARNING 2021-11-15 11:29:13,122 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:31:08,964 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 11:31:09,467 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6448
+INFO 2021-11-15 11:31:11,602 basehttp 161 "GET /index/?Category_id=2 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:31:12,233 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6448
+INFO 2021-11-15 11:31:12,868 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5002
+INFO 2021-11-15 11:34:28,431 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5003
+INFO 2021-11-15 11:34:29,868 basehttp 161 "GET /index/?Category_id=3 HTTP/1.1" 200 5003
+INFO 2021-11-15 11:34:31,916 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 6445
+WARNING 2021-11-15 11:34:31,983 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:34:32,727 basehttp 161 "GET /index/?Category_id=5 HTTP/1.1" 200 5003
+INFO 2021-11-15 11:34:33,532 basehttp 161 "GET /index/?Category_id=3 HTTP/1.1" 200 5003
+INFO 2021-11-15 11:34:34,404 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6449
+INFO 2021-11-15 11:34:34,462 basehttp 161 "GET /static/media/blog_title/20211115/diannao.jpg HTTP/1.1" 304 0
+INFO 2021-11-15 11:34:59,773 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6439
+INFO 2021-11-15 11:35:01,352 basehttp 161 "GET /index/?Category_id=5 HTTP/1.1" 200 4993
+INFO 2021-11-15 11:35:52,238 basehttp 161 "GET /index/?Category_id=5 HTTP/1.1" 200 4993
+INFO 2021-11-15 11:35:53,087 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 4993
+INFO 2021-11-15 11:37:52,596 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 11:37:54,407 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 11:37:54,943 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5188
+INFO 2021-11-15 11:37:56,221 basehttp 161 "GET /index/?Category_id=3 HTTP/1.1" 200 5179
+INFO 2021-11-15 11:37:57,190 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5188
+INFO 2021-11-15 11:37:58,118 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5188
+INFO 2021-11-15 11:37:58,671 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 6620
+WARNING 2021-11-15 11:37:58,710 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:38:00,599 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6628
+INFO 2021-11-15 11:39:07,878 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6599
+INFO 2021-11-15 11:39:09,094 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5153
+INFO 2021-11-15 11:39:09,791 basehttp 161 "GET /index/?Category_id=3 HTTP/1.1" 200 5153
+INFO 2021-11-15 11:39:10,285 basehttp 161 "GET /index/?Category_id=5 HTTP/1.1" 200 5153
+INFO 2021-11-15 11:39:10,611 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 6595
+WARNING 2021-11-15 11:39:10,639 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 11:39:10,664 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 11:48:52,240 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5153
+INFO 2021-11-15 11:57:50,009 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 11:57:51,783 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 12:00:10,733 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 12:00:12,395 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 12:03:34,641 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5196
+INFO 2021-11-15 12:03:37,455 basehttp 161 "GET /index/?Category_id=2 HTTP/1.1" 200 5196
+INFO 2021-11-15 12:03:38,072 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6642
+INFO 2021-11-15 12:03:38,102 basehttp 161 "GET /static/media/blog_title/20211115/diannao.jpg HTTP/1.1" 304 0
+INFO 2021-11-15 12:03:46,930 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 12:03:48,609 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 12:03:49,046 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6642
+INFO 2021-11-15 12:03:49,952 basehttp 161 "GET /index/ HTTP/1.1" 200 6628
+WARNING 2021-11-15 12:03:49,991 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 12:03:53,778 basehttp 161 "GET /index/ HTTP/1.1" 200 6628
+WARNING 2021-11-15 12:03:53,809 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 12:03:53,834 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 12:03:54,775 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6642
+INFO 2021-11-15 12:03:55,311 basehttp 161 "GET /index/?Category_id=2 HTTP/1.1" 200 5196
+INFO 2021-11-15 12:03:56,439 basehttp 161 "GET /index/?Category_id=3 HTTP/1.1" 200 5196
+INFO 2021-11-15 12:03:56,821 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5196
+INFO 2021-11-15 12:03:57,277 basehttp 161 "GET /index/?Category_id=5 HTTP/1.1" 200 5196
+INFO 2021-11-15 12:03:57,921 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 6638
+WARNING 2021-11-15 12:03:57,951 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 12:03:57,976 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 12:03:58,805 basehttp 161 "GET /index/ HTTP/1.1" 200 6628
+WARNING 2021-11-15 12:03:58,838 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 12:03:58,861 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 12:03:59,497 basehttp 161 "GET /index/ HTTP/1.1" 200 6628
+WARNING 2021-11-15 12:03:59,529 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 12:03:59,554 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 12:05:11,506 basehttp 161 "GET /index/ HTTP/1.1" 200 6628
+WARNING 2021-11-15 12:05:11,544 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 12:05:11,569 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 12:05:19,432 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 12:05:21,132 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 12:05:21,566 basehttp 161 "GET /index/ HTTP/1.1" 200 8074
+WARNING 2021-11-15 12:05:21,602 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 12:06:34,772 basehttp 161 "GET /index/ HTTP/1.1" 200 8086
+WARNING 2021-11-15 12:06:34,815 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 12:06:34,842 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 12:06:40,273 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 12:06:41,943 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 12:06:42,425 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 6650
+WARNING 2021-11-15 12:06:42,459 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 12:06:42,480 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 12:06:43,910 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6654
+INFO 2021-11-15 12:06:44,496 basehttp 161 "GET /index/ HTTP/1.1" 200 6640
+WARNING 2021-11-15 12:06:44,530 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 12:06:44,557 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 12:07:47,408 basehttp 161 "GET /index/ HTTP/1.1" 200 6634
+WARNING 2021-11-15 12:07:47,451 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 12:07:47,474 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 12:08:35,342 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-15 12:09:51,601 basehttp 161 "GET /index/ HTTP/1.1" 200 6635
+WARNING 2021-11-15 12:09:51,658 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 12:11:35,360 basehttp 161 "GET /index/ HTTP/1.1" 200 6640
+WARNING 2021-11-15 12:11:35,403 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 12:11:40,626 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5208
+INFO 2021-11-15 19:09:55,919 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-15 19:10:02,996 log 224 Not Found: /
+WARNING 2021-11-15 19:10:02,998 basehttp 161 "GET / HTTP/1.1" 404 3767
+WARNING 2021-11-15 19:10:03,561 log 224 Not Found: /favicon.ico
+WARNING 2021-11-15 19:10:03,562 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3818
+INFO 2021-11-15 19:10:06,416 basehttp 161 "GET /index/ HTTP/1.1" 200 6640
+WARNING 2021-11-15 19:10:06,498 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 19:10:08,459 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 19:10:13,681 basehttp 161 "GET /index/?Category_id=5 HTTP/1.1" 200 5208
+INFO 2021-11-15 19:10:14,860 basehttp 161 "GET /index/ HTTP/1.1" 200 6640
+WARNING 2021-11-15 19:10:14,907 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 19:10:14,952 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 19:10:17,677 basehttp 161 "GET /index/?Category_id=5 HTTP/1.1" 200 5208
+INFO 2021-11-15 19:10:18,262 basehttp 161 "GET /index/?Category_id=4 HTTP/1.1" 200 5208
+INFO 2021-11-15 19:10:18,676 basehttp 161 "GET /index/?Category_id=3 HTTP/1.1" 200 5208
+INFO 2021-11-15 19:10:19,045 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6654
+INFO 2021-11-15 19:10:19,091 basehttp 161 "GET /static/media/blog_title/20211115/diannao.jpg HTTP/1.1" 304 0
+WARNING 2021-11-15 19:10:21,158 log 224 Not Found: /index/detail.html
+WARNING 2021-11-15 19:10:21,158 basehttp 161 "GET /index/detail.html HTTP/1.1" 404 3836
+INFO 2021-11-15 19:12:46,735 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-15 19:33:08,528 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-15 19:33:10,448 log 224 Not Found: /
+WARNING 2021-11-15 19:33:10,449 basehttp 161 "GET / HTTP/1.1" 404 3767
+INFO 2021-11-15 19:33:13,212 basehttp 161 "GET /index/ HTTP/1.1" 200 6642
+WARNING 2021-11-15 19:33:13,251 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 19:33:14,566 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 19:33:15,884 log 224 Not Found: /
+WARNING 2021-11-15 19:33:15,885 basehttp 161 "GET /?Category_id=0&page=2 HTTP/1.1" 404 3792
+INFO 2021-11-15 19:33:58,305 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-15 19:33:59,991 log 224 Not Found: /
+WARNING 2021-11-15 19:33:59,991 basehttp 161 "GET /?Category_id=0&page=2 HTTP/1.1" 404 3792
+WARNING 2021-11-15 19:34:03,565 log 224 Not Found: /
+WARNING 2021-11-15 19:34:03,566 basehttp 161 "GET /?Category_id=0&page=2 HTTP/1.1" 404 3792
+INFO 2021-11-15 19:34:42,479 basehttp 161 "GET /index/ HTTP/1.1" 200 6648
+WARNING 2021-11-15 19:34:42,515 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 19:34:42,542 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 19:34:44,331 basehttp 161 "GET /index/?Category_id=0&page=2 HTTP/1.1" 200 6652
+INFO 2021-11-15 19:34:45,419 basehttp 161 "GET /index/?Category_id=0&page=1 HTTP/1.1" 200 6648
+WARNING 2021-11-15 19:34:45,454 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 19:34:45,483 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-15 19:34:46,278 basehttp 161 "GET /index/?Category_id=0&page=2 HTTP/1.1" 200 6652
+INFO 2021-11-15 19:34:46,636 basehttp 161 "GET /index/?Category_id=0&page=1 HTTP/1.1" 200 6648
+WARNING 2021-11-15 19:34:46,669 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-15 19:34:46,697 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
