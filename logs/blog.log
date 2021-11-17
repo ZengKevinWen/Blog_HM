@@ -2224,3 +2224,379 @@ INFO 2021-11-15 19:34:46,278 basehttp 161 "GET /index/?Category_id=0&page=2 HTTP
 INFO 2021-11-15 19:34:46,636 basehttp 161 "GET /index/?Category_id=0&page=1 HTTP/1.1" 200 6648
 WARNING 2021-11-15 19:34:46,669 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
 WARNING 2021-11-15 19:34:46,697 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-16 11:49:44,579 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 11:50:12,173 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\urls.py changed, reloading.
+INFO 2021-11-16 11:50:13,975 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-16 11:50:14,295 log 224 Not Found: /
+WARNING 2021-11-16 11:50:14,295 basehttp 161 "GET / HTTP/1.1" 404 3936
+WARNING 2021-11-16 11:50:14,406 log 224 Not Found: /favicon.ico
+WARNING 2021-11-16 11:50:14,406 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3987
+WARNING 2021-11-16 11:50:26,328 log 224 Not Found: /
+WARNING 2021-11-16 11:50:26,329 basehttp 161 "GET / HTTP/1.1" 404 3936
+INFO 2021-11-16 11:50:29,981 basehttp 161 "GET /login/ HTTP/1.1" 201 3198
+INFO 2021-11-16 11:50:37,684 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 11:50:37,712 basehttp 161 "GET /index/ HTTP/1.1" 200 6648
+WARNING 2021-11-16 11:50:37,768 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-16 11:50:44,323 basehttp 161 "GET /index/ HTTP/1.1" 200 6648
+WARNING 2021-11-16 11:50:44,364 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-16 11:50:45,247 basehttp 161 "GET /detail/ HTTP/1.1" 200 8729
+INFO 2021-11-16 11:50:45,288 basehttp 161 "GET /static/prism/prism.css HTTP/1.1" 200 4033
+INFO 2021-11-16 11:50:45,300 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99487
+INFO 2021-11-16 11:50:45,303 basehttp 161 "GET /static/js/detail.js HTTP/1.1" 200 1294
+WARNING 2021-11-16 11:50:46,078 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-16 11:50:46,080 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-16 11:50:46,099 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-16 11:50:46,101 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-16 11:50:46,101 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+WARNING 2021-11-16 11:50:46,101 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+WARNING 2021-11-16 11:50:58,428 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-16 11:50:58,429 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+WARNING 2021-11-16 11:50:58,575 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-16 11:50:58,582 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-16 11:57:14,596 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 11:57:16,540 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 11:57:46,239 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 11:57:47,914 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:03:03,965 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 12:03:05,910 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-11-16 12:03:06,432 log 224 Internal Server Error: /detail/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\auth\mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\blog\views.py", line 96, in get
+    blog = Blog.objects.get(id=blog_id)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+blog.models.Blog.DoesNotExist: Blog matching query does not exist.
+ERROR 2021-11-16 12:03:06,436 basehttp 161 "GET /detail/ HTTP/1.1" 500 91740
+INFO 2021-11-16 12:04:06,816 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 12:04:08,557 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:04:58,590 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:05:32,204 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:05:34,825 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 12:05:38,483 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-11-16 12:05:58,617 log 224 Internal Server Error: /detail/
+Traceback (most recent call last):
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\contrib\auth\mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\blog_hm\blog\views.py", line 96, in get
+    blog = Blog.objects.get(id=blog_id)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Anaconda\Anaconda\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+blog.models.Blog.DoesNotExist: Blog matching query does not exist.
+ERROR 2021-11-16 12:05:58,623 basehttp 161 "GET /detail/ HTTP/1.1" 500 94219
+INFO 2021-11-16 12:06:37,028 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 12:06:40,907 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:07:24,047 basehttp 161 "GET /detail/ HTTP/1.1" 200 8219
+WARNING 2021-11-16 12:07:24,221 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2021-11-16 12:07:24,377 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-16 12:07:24,378 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+INFO 2021-11-16 12:07:24,382 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-16 12:07:24,410 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-16 12:07:24,411 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+WARNING 2021-11-16 12:07:24,416 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-16 12:07:24,418 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+WARNING 2021-11-16 12:07:54,980 log 224 Forbidden (CSRF token missing or incorrect.): /detail/
+WARNING 2021-11-16 12:07:54,981 basehttp 161 "POST /detail/ HTTP/1.1" 403 2514
+WARNING 2021-11-16 12:07:56,576 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-16 12:07:56,590 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-16 12:13:57,336 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\models.py changed, reloading.
+INFO 2021-11-16 12:14:01,008 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:15:46,188 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 12:15:49,847 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:17:40,126 basehttp 161 "GET /detail/ HTTP/1.1" 200 6272
+WARNING 2021-11-16 12:17:40,255 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2021-11-16 12:17:40,322 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-16 12:17:40,323 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+INFO 2021-11-16 12:17:40,328 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-16 12:17:40,355 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-16 12:17:40,361 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-16 12:17:40,361 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+WARNING 2021-11-16 12:17:40,362 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+INFO 2021-11-16 12:18:14,181 basehttp 161 "GET /detail/ HTTP/1.1" 200 6272
+WARNING 2021-11-16 12:18:14,314 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2021-11-16 12:18:14,404 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-16 12:18:14,405 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+INFO 2021-11-16 12:18:14,409 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-16 12:18:14,436 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-16 12:18:14,443 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-16 12:18:14,443 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+WARNING 2021-11-16 12:18:14,444 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+INFO 2021-11-16 12:18:23,700 basehttp 161 "GET /detail/?blog_id=3 HTTP/1.1" 200 6272
+WARNING 2021-11-16 12:18:23,814 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-16 12:18:23,821 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-16 12:18:23,882 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-16 12:18:23,883 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-16 12:18:23,916 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-16 12:18:23,921 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-16 12:18:23,922 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+WARNING 2021-11-16 12:18:23,923 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+INFO 2021-11-16 12:25:43,044 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 12:25:46,758 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:30:14,681 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 12:30:18,535 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:31:44,392 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 12:31:48,087 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:37:24,207 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 12:37:28,040 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:37:56,675 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 12:38:00,303 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:39:34,859 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 12:39:38,536 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:39:46,431 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 12:39:50,112 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:40:28,702 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:41:13,951 basehttp 161 "GET /detail/?blog_id=3 HTTP/1.1" 200 6358
+WARNING 2021-11-16 12:41:14,127 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-16 12:41:14,132 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-16 12:41:14,205 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-16 12:41:14,207 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-16 12:41:14,241 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-16 12:41:14,248 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-16 12:41:14,249 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+WARNING 2021-11-16 12:41:14,249 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+WARNING 2021-11-16 12:42:03,606 log 224 Bad Request: /detail/
+WARNING 2021-11-16 12:42:03,607 basehttp 161 "POST /detail/?blog_id=3 HTTP/1.1" 400 18
+INFO 2021-11-16 12:42:21,371 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:42:43,500 basehttp 161 "GET /detail/?blog_id=3 HTTP/1.1" 200 6358
+WARNING 2021-11-16 12:42:43,651 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-11-16 12:42:43,655 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-16 12:42:43,721 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-16 12:42:43,722 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-16 12:42:43,752 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-16 12:42:43,759 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-16 12:42:43,759 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+WARNING 2021-11-16 12:42:43,761 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+INFO 2021-11-16 12:43:29,867 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:43:43,043 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-16 12:43:46,784 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:43:51,754 basehttp 161 "GET /detail/?blog_id=3 HTTP/1.1" 200 6358
+WARNING 2021-11-16 12:43:51,882 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2021-11-16 12:43:52,004 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-16 12:43:52,005 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-16 12:43:52,037 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-16 12:43:52,043 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+INFO 2021-11-16 12:43:52,044 basehttp 75 - Broken pipe from ('127.0.0.1', 50473)
+
+WARNING 2021-11-16 12:43:52,045 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-16 12:43:52,046 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+INFO 2021-11-16 12:43:52,048 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-11-16 12:44:46,561 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-16 12:44:51,647 basehttp 161 "GET /detail/?blog_id=3 HTTP/1.1" 200 6358
+WARNING 2021-11-16 12:44:51,784 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2021-11-16 12:44:51,906 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-16 12:44:51,906 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+INFO 2021-11-16 12:44:51,910 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-16 12:44:51,939 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-16 12:44:51,945 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-16 12:44:51,946 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+WARNING 2021-11-16 12:44:51,946 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+INFO 2021-11-16 12:45:11,526 basehttp 161 "POST /detail/?blog_id=3 HTTP/1.1" 302 0
+INFO 2021-11-16 12:45:17,593 basehttp 161 "GET /detail/ HTTP/1.1" 200 6796
+WARNING 2021-11-16 12:45:17,710 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2021-11-16 12:45:17,767 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-16 12:45:17,768 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+INFO 2021-11-16 12:45:17,773 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-11-16 12:45:17,811 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-16 12:45:17,812 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-16 12:45:17,813 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+WARNING 2021-11-16 12:45:17,813 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+INFO 2021-11-17 10:58:58,648 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-17 10:59:00,669 log 224 Not Found: /
+WARNING 2021-11-17 10:59:00,672 basehttp 161 "GET / HTTP/1.1" 404 3936
+WARNING 2021-11-17 10:59:01,089 log 224 Not Found: /favicon.ico
+WARNING 2021-11-17 10:59:01,095 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3987
+INFO 2021-11-17 10:59:04,055 basehttp 161 "GET /index/ HTTP/1.1" 302 0
+INFO 2021-11-17 10:59:04,075 basehttp 161 "GET /login/?next=/index/ HTTP/1.1" 201 3198
+INFO 2021-11-17 10:59:12,455 basehttp 161 "POST /login/?next=/index/ HTTP/1.1" 302 0
+INFO 2021-11-17 10:59:12,509 basehttp 161 "GET /index/ HTTP/1.1" 200 6689
+WARNING 2021-11-17 10:59:12,647 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-17 10:59:17,844 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6339
+WARNING 2021-11-17 10:59:18,176 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-17 10:59:18,177 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-17 10:59:18,211 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-17 10:59:18,213 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-17 10:59:18,214 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+WARNING 2021-11-17 10:59:18,217 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+INFO 2021-11-17 10:59:20,495 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6339
+WARNING 2021-11-17 10:59:20,725 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-17 10:59:20,727 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-17 10:59:20,756 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-17 10:59:20,757 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+WARNING 2021-11-17 10:59:20,762 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-17 10:59:20,762 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+INFO 2021-11-17 10:59:24,140 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6339
+WARNING 2021-11-17 10:59:24,358 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-17 10:59:24,360 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-17 10:59:24,386 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-17 10:59:24,387 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-17 10:59:24,387 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+WARNING 2021-11-17 10:59:24,388 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+INFO 2021-11-17 10:59:25,264 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6339
+WARNING 2021-11-17 10:59:25,511 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-17 10:59:25,512 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-17 10:59:25,540 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-17 10:59:25,543 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-17 10:59:25,543 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+WARNING 2021-11-17 10:59:25,544 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+INFO 2021-11-17 10:59:33,773 basehttp 161 "GET /index/ HTTP/1.1" 200 6689
+WARNING 2021-11-17 10:59:33,857 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-17 10:59:33,935 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-17 10:59:34,988 basehttp 161 "GET /index/?Category_id=2 HTTP/1.1" 200 5216
+INFO 2021-11-17 10:59:36,775 basehttp 161 "GET /index/?Category_id=1 HTTP/1.1" 200 6703
+INFO 2021-11-17 10:59:36,831 basehttp 161 "GET /static/media/blog_title/20211115/diannao.jpg HTTP/1.1" 304 0
+INFO 2021-11-17 10:59:39,463 basehttp 161 "GET /index/?Category_id=5 HTTP/1.1" 200 5216
+INFO 2021-11-17 10:59:40,030 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 6699
+WARNING 2021-11-17 10:59:40,092 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-17 10:59:40,165 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-17 10:59:41,164 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6339
+WARNING 2021-11-17 10:59:41,412 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-17 10:59:41,413 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-17 10:59:41,437 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-17 10:59:41,437 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+WARNING 2021-11-17 10:59:41,437 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-17 10:59:41,438 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+INFO 2021-11-17 11:02:11,791 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-17 11:02:14,940 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-17 11:02:58,031 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6339
+WARNING 2021-11-17 11:02:58,355 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-17 11:02:58,358 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-17 11:02:58,386 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-17 11:02:58,386 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-17 11:02:58,387 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+WARNING 2021-11-17 11:02:58,388 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+INFO 2021-11-17 11:03:00,549 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6339
+WARNING 2021-11-17 11:03:00,780 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-17 11:03:00,781 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-17 11:03:00,806 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-17 11:03:00,809 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-17 11:03:00,811 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+WARNING 2021-11-17 11:03:00,812 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+INFO 2021-11-17 11:03:01,285 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6339
+WARNING 2021-11-17 11:03:01,509 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-17 11:03:01,510 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-17 11:03:01,536 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-17 11:03:01,537 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-17 11:03:01,539 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+WARNING 2021-11-17 11:03:01,539 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+INFO 2021-11-17 11:03:02,258 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6339
+WARNING 2021-11-17 11:03:02,457 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-17 11:03:02,458 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-17 11:03:02,476 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-17 11:03:02,478 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+WARNING 2021-11-17 11:03:02,478 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-17 11:03:02,479 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+INFO 2021-11-17 11:03:02,797 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6339
+WARNING 2021-11-17 11:03:03,025 log 224 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-11-17 11:03:03,026 basehttp 161 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 4063
+WARNING 2021-11-17 11:03:03,045 log 224 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-11-17 11:03:03,045 log 224 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-11-17 11:03:03,045 basehttp 161 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 4066
+WARNING 2021-11-17 11:03:03,046 basehttp 161 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 4117
+INFO 2021-11-17 11:12:43,000 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\models.py changed, reloading.
+INFO 2021-11-17 11:12:44,771 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-17 11:13:00,798 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\models.py changed, reloading.
+INFO 2021-11-17 11:13:02,465 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-17 11:24:47,062 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6347
+INFO 2021-11-17 11:24:47,408 basehttp 161 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19035
+INFO 2021-11-17 11:24:47,430 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3824
+INFO 2021-11-17 11:24:47,431 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4333
+INFO 2021-11-17 11:24:47,447 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 369
+INFO 2021-11-17 11:24:47,486 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2021-11-17 11:24:47,523 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2063
+INFO 2021-11-17 11:25:40,000 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-17 11:26:51,556 basehttp 161 "POST /detail/?blog_id=4 HTTP/1.1" 302 0
+INFO 2021-11-17 11:29:04,734 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-17 11:29:13,355 basehttp 161 "GET /detail/ HTTP/1.1" 200 6804
+INFO 2021-11-17 11:29:19,375 basehttp 161 "GET /index/ HTTP/1.1" 200 6689
+WARNING 2021-11-17 11:29:19,425 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-17 11:29:19,443 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-17 11:29:22,976 basehttp 161 "GET /index/?Category_id=6 HTTP/1.1" 200 6699
+WARNING 2021-11-17 11:29:23,023 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-17 11:29:28,161 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6811
+INFO 2021-11-17 11:29:58,003 basehttp 161 "POST /detail/?blog_id=4 HTTP/1.1" 302 0
+INFO 2021-11-17 11:30:07,425 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 7279
+INFO 2021-11-17 11:45:06,372 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-17 11:45:15,997 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-17 11:45:19,731 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-17 11:45:54,228 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6840
+INFO 2021-11-17 11:46:09,752 basehttp 161 "POST /detail/?blog_id=4 HTTP/1.1" 302 0
+INFO 2021-11-17 11:46:11,532 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6841
+WARNING 2021-11-17 11:46:43,025 log 224 Not Found: /
+WARNING 2021-11-17 11:46:43,025 basehttp 161 "GET /?blog_id=4&page_id=2 HTTP/1.1" 404 3960
+WARNING 2021-11-17 11:47:00,184 log 224 Not Found: /
+WARNING 2021-11-17 11:47:00,185 basehttp 161 "GET /?blog_id=4&page_id=2 HTTP/1.1" 404 3960
+INFO 2021-11-17 11:50:55,540 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-17 11:51:01,695 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-17 11:51:27,561 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-17 11:51:33,463 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-17 11:55:44,958 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-17 11:55:49,493 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-17 11:56:34,937 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-17 11:56:39,436 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-17 11:58:10,947 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-17 11:58:16,843 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-17 11:58:17,937 log 224 Not Found: /
+WARNING 2021-11-17 11:58:17,939 basehttp 161 "GET /?blog_id=4&page_id=2 HTTP/1.1" 404 3960
+INFO 2021-11-17 11:58:29,917 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-17 11:58:38,106 log 224 Not Found: /
+WARNING 2021-11-17 11:58:38,106 basehttp 161 "GET /?blog_id=4&page_id=2 HTTP/1.1" 404 3960
+INFO 2021-11-17 11:58:57,585 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-17 11:58:59,230 log 224 Not Found: /
+WARNING 2021-11-17 11:58:59,232 basehttp 161 "GET / HTTP/1.1" 404 3936
+INFO 2021-11-17 11:59:03,866 basehttp 161 "GET /detail/ HTTP/1.1" 200 6840
+INFO 2021-11-17 11:59:08,051 basehttp 161 "POST /detail/ HTTP/1.1" 302 0
+INFO 2021-11-17 11:59:08,102 basehttp 161 "GET /detail/?blog_id=3 HTTP/1.1" 200 6840
+INFO 2021-11-17 11:59:10,629 basehttp 161 "GET /detail/?blog_id=3&page_id=2 HTTP/1.1" 200 6840
+INFO 2021-11-17 11:59:14,835 basehttp 161 "GET /detail/?blog_id=3&page_id=1 HTTP/1.1" 200 6840
+INFO 2021-11-17 11:59:16,720 basehttp 161 "GET /detail/?blog_id=3&page_id=2 HTTP/1.1" 200 6840
+INFO 2021-11-17 11:59:23,158 basehttp 161 "GET /login/ HTTP/1.1" 201 3198
+INFO 2021-11-17 12:02:20,093 basehttp 161 "GET /login/ HTTP/1.1" 201 3198
+INFO 2021-11-17 12:02:24,743 basehttp 161 "POST /detail/?blog_id=3&page_id=2 HTTP/1.1" 302 0
+INFO 2021-11-17 12:02:24,792 basehttp 161 "GET /detail/?blog_id=3 HTTP/1.1" 200 6840
+INFO 2021-11-17 12:02:28,612 basehttp 161 "GET /login/ HTTP/1.1" 201 3198
+INFO 2021-11-17 12:02:36,259 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-17 12:02:36,278 basehttp 161 "GET /index/ HTTP/1.1" 200 6690
+WARNING 2021-11-17 12:02:36,362 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+WARNING 2021-11-17 12:02:36,432 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-17 12:02:38,855 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6848
+INFO 2021-11-17 12:13:26,833 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-17 12:13:28,825 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-17 12:13:36,144 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-17 12:13:38,282 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-17 12:13:40,311 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-17 12:13:40,322 basehttp 161 "GET /login/ HTTP/1.1" 201 3198
+INFO 2021-11-17 12:13:45,839 basehttp 161 "GET /index/ HTTP/1.1" 302 0
+INFO 2021-11-17 12:13:45,849 basehttp 161 "GET /login/?next=/index/ HTTP/1.1" 201 3198
+INFO 2021-11-17 12:14:02,571 basehttp 161 "POST /login/?next=/index/ HTTP/1.1" 302 0
+INFO 2021-11-17 12:14:02,593 basehttp 161 "GET /index/ HTTP/1.1" 200 6690
+WARNING 2021-11-17 12:14:02,683 basehttp 161 "GET /static/media/ HTTP/1.1" 404 1767
+INFO 2021-11-17 12:14:04,546 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6848
+INFO 2021-11-17 12:14:09,934 basehttp 161 "POST /detail/?blog_id=4 HTTP/1.1" 302 0
+INFO 2021-11-17 12:14:09,973 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6848
+INFO 2021-11-17 12:14:30,025 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-17 12:14:37,934 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6848
+INFO 2021-11-17 12:15:32,680 basehttp 161 "POST /detail/?blog_id=4 HTTP/1.1" 302 0
+INFO 2021-11-17 12:15:33,766 basehttp 161 "GET /detail/?blog_id=4 HTTP/1.1" 200 6848
+INFO 2021-11-17 12:18:53,288 autoreload 251 C:\Users\Administrator\Desktop\blog_hm\blog\views.py changed, reloading.
+INFO 2021-11-17 12:18:58,270 autoreload 637 Watching for file changes with StatReloader

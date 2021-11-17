@@ -90,14 +90,14 @@
             </div>
             <div class="col">
                 <!-- 栏目 -->
-                <a  role="button" href="#" class="btn btn-sm mb-2 btn-warning">{{ Blog.category.name }}</a>
+                <a  role="button" href="/detail/?blog_id={{ Blog.id }}" class="btn btn-sm mb-2 btn-warning">{{ Blog.category.name }}</a>
             <!-- 标签 -->
                 <span>
-                        <a href="#" class="badge badge-secondary">{{ Blog.tags }}</a>
+                        <a href="/detail/?blog_id={{ Blog.id }}" class="badge badge-secondary">{{ Blog.tags }}</a>
                 </span>
                 <!-- 标题 -->
                 <h4>
-                    <b><a href="detail.html" style="color: black;">{{ Blog.name }}</a></b>
+                    <b><a href="/detail/?blog_id={{ Blog.id }}" style="color: black;">{{ Blog.name }}</a></b>
                 </h4>
                 <!-- 摘要 -->
                 <div>
